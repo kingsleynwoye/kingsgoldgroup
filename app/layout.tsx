@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kingsgold Group",
   description:
-    "Kingsgold Group is a diversified business group committed to building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
+    "Kingsgold Group is a diversified business group committed to building innovative companies across multiple industries through entrepreneurship, innovation, and long-term value creation.",
 };
 
 export default function RootLayout({
