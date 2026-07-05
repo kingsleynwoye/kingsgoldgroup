@@ -504,7 +504,7 @@ export default function About() {
             <span className="text-[#D4AF37]">(Kingsgold)</span>
           </h2>
 
-          <p className="mt-3 text-zinc-400">Founder & Group CEO</p>
+          <p className="mt-3 text-zinc-400">Founder & CEO</p>
 
           <p className="mt-8 max-w-4xl text-lg leading-9 text-zinc-300">
             Kingsley Chidubem Nwoye, popularly known as Kingsgold, is a Nigerian
