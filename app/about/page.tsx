@@ -448,9 +448,9 @@ export default function About() {
 
           <p className="mt-6 max-w-4xl text-lg leading-8 text-zinc-600">
             Kingsgold Group operates through a growing portfolio of companies
-            serving diverse industries. Each company operates independently
-            while sharing a common commitment to innovation, customer
-            satisfaction, and long-term value creation.
+            across multiple industries. Each company operates independently
+            while sharing a common vision of innovation, excellence, and
+            long-term value creation.
           </p>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -508,10 +508,11 @@ export default function About() {
 
           <p className="mt-8 max-w-4xl text-lg leading-9 text-zinc-300">
             Kingsley Chidubem Nwoye, popularly known as Kingsgold, is a Nigerian
-            software engineer, technology entrepreneur, and the founder of
-            Kingsgold Group. Through the Group, he leads a portfolio of
-            businesses spanning technology, finance, real estate, agriculture,
-            and the creative industries.
+            software engineer, technology entrepreneur, and the Founder & CEO of
+            Kingsgold Group. Through the Group, he leads a diversified portfolio
+            of companies across multiple industries, with a vision to build
+            innovative businesses that create lasting value and shape the
+            future.
           </p>
         </section>
 

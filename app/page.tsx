@@ -235,8 +235,8 @@ export default function Home() {
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-600 md:text-xl">
           Kingsgold Group is a diversified business group committed to building
-          innovative companies across technology, finance, real estate,
-          agriculture, and the creative industries.
+          innovative companies across multiple industries through
+          entrepreneurship, innovation, and long-term value creation.
         </p>
 
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">

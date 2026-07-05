@@ -319,11 +319,10 @@ export default function Companies() {
           </h1>
 
           <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
-            Kingsgold Group is a diversified business group with interests
-            spanning technology, finance, real estate, agriculture, and the
-            creative industries. Every company operates independently while
-            sharing a common vision of innovation, excellence, and sustainable
-            growth.
+            Kingsgold Group is a diversified business group committed to
+            building and growing innovative companies across multiple
+            industries. Every company operates independently while sharing a
+            common vision of innovation, excellence, and sustainable growth.
           </p>
         </div>
 
