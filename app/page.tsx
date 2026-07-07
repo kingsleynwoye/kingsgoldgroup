@@ -223,14 +223,17 @@ export default function Home() {
       className={`min-h-screen bg-white text-[#0F0F0F] ${stack_sans_headline.className}`}
     >
       <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 text-center">
-        <span className="mb-5 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+        <span className="mb-5 rounded-full border border-[#D4AF37]/30 bg-[#bd971d]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
           Welcome to Kingsgold Group
         </span>
 
         <h1 className="max-w-5xl text-5xl font-bold tracking-tight md:text-7xl">
           Building Businesses
           <br />
-          That Shape the <span className="text-[#D4AF37]">Future.</span>
+          That Shape the{" "}
+          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] bg-clip-text text-transparent">
+            Future.
+          </span>
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-600 md:text-xl">
@@ -249,7 +252,7 @@ export default function Home() {
 
           <Link
             href="/companies"
-            className="rounded-full border border-[#D4AF37] px-8 py-4 font-semibold text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-[#0F0F0F]"
+            className="rounded-full border border-[#D4AF37] px-8 py-4 font-semibold hover:bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] text-[#0F0F0F] shadow-lg hover:brightness-110 transition hover:text-[#0F0F0F]"
           >
             Our Companies
           </Link>
@@ -261,7 +264,7 @@ export default function Home() {
               key={company.name}
               className="rounded-3xl border border-zinc-200 bg-white p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
             >
-              <div className="mb-4 h-1 w-10 rounded-full bg-[#D4AF37]" />
+              <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
               <h3 className="text-lg font-semibold text-[#0F0F0F]">
                 {company.name}
@@ -278,7 +281,9 @@ export default function Home() {
             <span className="text-[#0F0F0F]">Coal</span>{" "}
             {/* <span className="text-zinc-400">→</span>{" "} */}
             <span className="text-zinc-400">To</span>{" "}
-            <span className="text-[#D4AF37]">Gold</span>
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Gold
+            </span>
           </h2>
 
           <p className="mt-5 text-xl text-zinc-500">

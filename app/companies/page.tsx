@@ -313,7 +313,11 @@ export default function Companies() {
           </span>
 
           <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
-            Building the <span className="text-[#D4AF37]">Future</span>,
+            Building the{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Future
+            </span>
+            ,
             <br />
             One Company at a Time.
           </h1>
@@ -334,7 +338,7 @@ export default function Companies() {
               key={company.name}
               className="group rounded-[28px] border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#D4AF37] hover:shadow-xl"
             >
-              <div className="mb-6 h-1 w-12 rounded-full bg-[#D4AF37]" />
+              <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
               <span className="inline-flex rounded-full bg-[#D4AF37]/10 px-3 py-1 text-sm font-medium text-[#B8860B]">
                 {company.industry}
@@ -392,7 +396,9 @@ export default function Companies() {
             <span className="text-[#0F0F0F]">Coal</span>{" "}
             {/* <span className="text-zinc-400">→</span>{" "} */}
             <span className="text-zinc-400">To</span>{" "}
-            <span className="text-[#D4AF37]">Gold</span>
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Gold
+            </span>{" "}
           </h2>
 
           <p className="mt-5 text-xl text-zinc-500">

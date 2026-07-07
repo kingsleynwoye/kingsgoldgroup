@@ -398,7 +398,9 @@ export default function About() {
 
           <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
             Building Businesses That Shape the{" "}
-            <span className="text-[#D4AF37]">Future.</span>
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Future.
+            </span>
           </h1>
 
           <p className="mt-8 text-lg leading-9 text-zinc-600">
@@ -459,7 +461,7 @@ export default function About() {
                 key={item.company}
                 className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
               >
-                <div className="mb-4 h-1 w-10 rounded-full bg-[#D4AF37]" />
+                <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
                 <h3 className="text-lg font-semibold text-[#0F0F0F]">
                   {item.title}
@@ -501,7 +503,9 @@ export default function About() {
 
           <h2 className="mt-4 text-4xl font-bold">
             Kingsley Chidubem Nwoye{" "}
-            <span className="text-[#D4AF37]">(Kingsgold)</span>
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              (Kingsgold)
+            </span>
           </h2>
 
           <p className="mt-3 text-zinc-400">Founder & CEO</p>
@@ -524,7 +528,9 @@ export default function About() {
             <span className="text-[#0F0F0F]">Coal</span>{" "}
             {/* <span className="text-zinc-400">→</span>{" "} */}
             <span className="text-zinc-400">To</span>{" "}
-            <span className="text-[#D4AF37]">Gold</span>
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Gold
+            </span>
           </h2>
 
           <p className="mt-5 text-xl text-zinc-500">
