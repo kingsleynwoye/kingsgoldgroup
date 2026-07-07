@@ -199,7 +199,7 @@
 // export default function About() {
 //   return (
 //     <main
-//       className={`min-h-screen bg-[#0F0F0F] text-white ${stack_sans_headline.className}`}
+//       className={`min-h-screen bg-[#151716] text-white ${stack_sans_headline.className}`}
 //     >
 //       <section className="mx-auto max-w-7xl px-6 py-24">
 //         {/* Hero */}
@@ -305,7 +305,7 @@
 
 //         {/* Founder */}
 
-//         <section className="mt-28 rounded-[2rem] border border-[#D4AF37]/30 bg-gradient-to-br from-[#18181B] to-[#0F0F0F] p-10">
+//         <section className="mt-28 rounded-[2rem] border border-[#D4AF37]/30 bg-gradient-to-br from-[#18181B] to-[#151716] p-10">
 //           <span className="text-sm font-medium uppercase tracking-[0.3em] text-[#D4AF37]">
 //             Leadership
 //           </span>
@@ -386,7 +386,7 @@ const values = [
 export default function About() {
   return (
     <main
-      className={`min-h-screen bg-white text-[#0F0F0F] ${stack_sans_headline.className}`}
+      className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
     >
       <section className="mx-auto max-w-7xl px-6 py-24">
         {/* Hero */}
@@ -417,9 +417,9 @@ export default function About() {
 
         <div className="mt-24 grid gap-8 md:grid-cols-2">
           <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
-            <div className="mb-5 h-1 w-12 rounded-full bg-[#D4AF37]" />
+            <div className="mb-5 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
-            <h2 className="text-2xl font-bold text-[#0F0F0F]">Our Mission</h2>
+            <h2 className="text-2xl font-bold text-[#151716]">Our Mission</h2>
 
             <p className="mt-5 leading-8 text-zinc-600">
               To build exceptional businesses that create lasting value, empower
@@ -431,7 +431,7 @@ export default function About() {
           <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
             <div className="mb-5 h-1 w-12 rounded-full bg-[#D4AF37]" />
 
-            <h2 className="text-2xl font-bold text-[#0F0F0F]">Our Vision</h2>
+            <h2 className="text-2xl font-bold text-[#151716]">Our Vision</h2>
 
             <p className="mt-5 leading-8 text-zinc-600">
               To become one of Africa's most respected and globally recognized
@@ -463,7 +463,7 @@ export default function About() {
               >
                 <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
-                <h3 className="text-lg font-semibold text-[#0F0F0F]">
+                <h3 className="text-lg font-semibold text-[#151716]">
                   {item.title}
                 </h3>
 
@@ -486,7 +486,7 @@ export default function About() {
                 key={value}
                 className="rounded-3xl border border-zinc-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
               >
-                <h3 className="text-lg font-semibold text-[#0F0F0F]">
+                <h3 className="text-lg font-semibold text-[#151716]">
                   {value}
                 </h3>
               </div>
@@ -496,7 +496,7 @@ export default function About() {
 
         {/* Founder */}
 
-        <section className="mt-28 rounded-[2rem] bg-[#0F0F0F] p-10 text-white">
+        <section className="mt-28 rounded-[2rem] bg-[#151716] p-10 text-white">
           <span className="text-sm font-medium uppercase tracking-[0.3em] text-[#D4AF37]">
             Leadership
           </span>
@@ -525,7 +525,7 @@ export default function About() {
         <section className="mt-28 text-center">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
             <span className="text-zinc-400">From</span>{" "}
-            <span className="text-[#0F0F0F]">Coal</span>{" "}
+            <span className="text-[#151716]">Coal</span>{" "}
             {/* <span className="text-zinc-400">→</span>{" "} */}
             <span className="text-zinc-400">To</span>{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">

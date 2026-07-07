@@ -164,7 +164,7 @@
 // export default function Companies() {
 //   return (
 //     <main
-//       className={`min-h-screen bg-[#0F0F0F] text-white ${stack_sans_headline.className}`}
+//       className={`min-h-screen bg-[#151716] text-white ${stack_sans_headline.className}`}
 //     >
 //       <section className="mx-auto max-w-7xl px-6 py-24">
 //         {/* Hero */}
@@ -224,7 +224,7 @@
 
 //         {/* Vision */}
 
-//         <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-gradient-to-br from-[#18181B] to-[#0F0F0F] px-10 py-16 text-center">
+//         <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-gradient-to-br from-[#18181B] to-[#151716] px-10 py-16 text-center">
 //           <h2 className="text-4xl font-bold">
 //             United by One <span className="text-[#D4AF37]">Vision.</span>
 //           </h2>
@@ -302,7 +302,7 @@ const companies = [
 export default function Companies() {
   return (
     <main
-      className={`min-h-screen bg-white text-[#0F0F0F] ${stack_sans_headline.className}`}
+      className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
     >
       <section className="mx-auto max-w-7xl px-6 py-24">
         {/* Hero */}
@@ -344,7 +344,7 @@ export default function Companies() {
                 {company.industry}
               </span>
 
-              <h2 className="mt-6 text-2xl font-bold text-[#0F0F0F] transition-colors group-hover:text-[#D4AF37]">
+              <h2 className="mt-6 text-2xl font-bold text-[#151716] transition-colors group-hover:text-[#D4AF37]">
                 {company.name}
               </h2>
 
@@ -365,7 +365,7 @@ export default function Companies() {
 
         {/* Vision */}
 
-        <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#0F0F0F] px-10 py-16 text-center text-white">
+        <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#151716] px-10 py-16 text-center text-white">
           <h2 className="text-4xl font-bold">
             United by One <span className="text-[#D4AF37]">Vision.</span>
           </h2>
@@ -393,7 +393,7 @@ export default function Companies() {
         <section className="mt-28 text-center">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
             <span className="text-zinc-400">From</span>{" "}
-            <span className="text-[#0F0F0F]">Coal</span>{" "}
+            <span className="text-[#151716]">Coal</span>{" "}
             {/* <span className="text-zinc-400">→</span>{" "} */}
             <span className="text-zinc-400">To</span>{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
