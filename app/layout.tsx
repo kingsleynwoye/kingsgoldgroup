@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kingsgold Group",
+  title: "Kingsgold Group - From Coal To Gold",
   description:
     "Kingsgold Group is a diversified business group committed to building innovative companies across multiple industries through entrepreneurship, innovation, and long-term value creation.",
 };

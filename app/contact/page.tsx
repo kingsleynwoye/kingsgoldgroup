@@ -343,7 +343,6 @@
 //     </main>
 //   );
 // }
-
 import Header from "@/components/Header";
 import { Stack_Sans_Headline } from "next/font/google";
 
@@ -352,194 +351,141 @@ export const stack_sans_headline = Stack_Sans_Headline({
   display: "swap",
 });
 
-const industries = [
-  {
-    title: "Technology",
-    company: "Range Universe",
-  },
-  {
-    title: "Finance",
-    company: "TrustnFund",
-  },
-  {
-    title: "Real Estate",
-    company: "Staydeck",
-  },
-  {
-    title: "Agriculture",
-    company: "Nature Ambiance",
-  },
-  {
-    title: "Creative & Entertainment",
-    company: "DiceSea",
-  },
-];
-
-const values = [
-  "Innovation",
-  "Integrity",
-  "Excellence",
-  "Leadership",
-  "Collaboration",
-  "Sustainability",
-];
-
-export default function About() {
+export default function Contact() {
   return (
     <>
       <Header />
+
       <main
         className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
       >
-        <section className="mx-auto max-w-7xl px-6 py-24">
-          {/* Hero */}
+        {/* Hero */}
 
+        <section className="mx-auto max-w-7xl px-6 pt-24 pb-20">
           <div className="max-w-4xl">
             <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-              About Us
+              Contact Us
             </span>
 
-            <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
-              Building Businesses That Shape the{" "}
+            <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
+              Let's Build the{" "}
               <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                Future.
-              </span>
+                Future
+              </span>{" "}
+              Together.
             </h1>
 
-            <p className="mt-8 text-lg leading-9 text-zinc-600">
-              Kingsgold Group is a diversified business group committed to
-              building innovative companies that create value, solve meaningful
-              problems, and drive sustainable growth. Through strategic
-              investments, entrepreneurship, and innovation, the Group develops
-              businesses across multiple industries while contributing to
-              Africa's economic transformation.
+            <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
+              We'd love to hear from entrepreneurs, investors, partners,
+              clients, and anyone interested in learning more about Kingsgold
+              Group. Reach out and let's start the conversation.
             </p>
           </div>
+        </section>
 
-          {/* Mission & Vision */}
+        {/* Contact */}
 
-          <div className="mt-24 grid gap-8 md:grid-cols-2">
-            <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
-              <div className="mb-5 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
+        <section className="mx-auto max-w-7xl px-6 pb-28">
+          <div className="grid gap-10 lg:grid-cols-2">
+            {/* Left */}
 
-              <h2 className="text-2xl font-bold text-[#151716]">Our Mission</h2>
+            <div>
+              <h2 className="text-3xl font-bold">
+                Get In <span className="text-[#D4AF37]">Touch</span>
+              </h2>
 
-              <p className="mt-5 leading-8 text-zinc-600">
-                To build exceptional businesses that create lasting value,
-                empower people, and transform industries through innovation,
-                integrity, and excellence.
+              <p className="mt-6 leading-8 text-zinc-600">
+                Whether you have a business inquiry, partnership opportunity,
+                media request, or general question, we'd be happy to hear from
+                you.
               </p>
+
+              <div className="mt-12 space-y-8">
+                <div className="rounded-3xl border border-zinc-200 p-6">
+                  <h3 className="font-semibold text-[#151716]">Email</h3>
+
+                  <p className="mt-2 text-zinc-600">kingsgoldgroup@gmail.com</p>
+                </div>
+
+                <div className="rounded-3xl border border-zinc-200 p-6">
+                  <h3 className="font-semibold text-[#151716]">
+                    Business Inquiries
+                  </h3>
+
+                  <p className="mt-2 text-zinc-600">
+                    Partnerships, investments, collaborations and strategic
+                    opportunities.
+                  </p>
+                </div>
+
+                <div className="rounded-3xl border border-zinc-200 p-6">
+                  <h3 className="font-semibold text-[#151716]">Location</h3>
+
+                  <p className="mt-2 text-zinc-600">Nigeria</p>
+                </div>
+              </div>
             </div>
 
-            <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
-              <div className="mb-5 h-1 w-12 rounded-full bg-[#D4AF37]" />
+            {/* Form */}
 
-              <h2 className="text-2xl font-bold text-[#151716]">Our Vision</h2>
+            <div className="rounded-[2rem] border border-zinc-200 p-10 shadow-sm">
+              <h2 className="text-3xl font-bold">
+                Send a <span className="text-[#D4AF37]">Message</span>
+              </h2>
 
-              <p className="mt-5 leading-8 text-zinc-600">
-                To become one of Africa's most respected and globally recognized
-                business groups, creating sustainable enterprises that
-                positively impact generations.
-              </p>
+              <form className="mt-10 space-y-6">
+                <input
+                  type="text"
+                  required
+                  placeholder="Full Name"
+                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+                />
+
+                <input
+                  type="email"
+                  required
+                  placeholder="Email Address"
+                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+                />
+
+                <input
+                  type="text"
+                  required
+                  placeholder="Subject"
+                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+                />
+
+                <textarea
+                  rows={6}
+                  required
+                  placeholder="Tell us about your inquiry..."
+                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+                />
+
+                <button className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110 cursor-pointer">
+                  Send Message
+                </button>
+              </form>
             </div>
           </div>
+        </section>
 
-          {/* What We Do */}
+        {/* CTA */}
 
-          <section className="mt-28">
-            <h2 className="text-4xl font-bold">
-              What We <span className="text-[#D4AF37]">Do</span>
-            </h2>
+        <section className="pb-24 text-center">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <span className="text-zinc-400">From</span>{" "}
+            <span className="text-[#151716]">Coal</span>{" "}
+            {/* <span className="text-zinc-400">→</span>{" "} */}
+            <span className="text-zinc-400">To</span>{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Gold
+            </span>{" "}
+          </h2>
 
-            <p className="mt-6 max-w-4xl text-lg leading-8 text-zinc-600">
-              Kingsgold Group operates through a growing portfolio of companies
-              across multiple industries. Each company operates independently
-              while sharing a common vision of innovation, excellence, and
-              long-term value creation.
-            </p>
-
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {industries.map((item) => (
-                <div
-                  key={item.company}
-                  className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
-                >
-                  <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
-
-                  <h3 className="text-lg font-semibold text-[#151716]">
-                    {item.title}
-                  </h3>
-
-                  <p className="mt-3 text-zinc-600">{item.company}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Core Values */}
-
-          <section className="mt-28">
-            <h2 className="text-4xl font-bold">
-              Our Core <span className="text-[#D4AF37]">Values</span>
-            </h2>
-
-            <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {values.map((value) => (
-                <div
-                  key={value}
-                  className="rounded-3xl border border-zinc-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
-                >
-                  <h3 className="text-lg font-semibold text-[#151716]">
-                    {value}
-                  </h3>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Founder */}
-
-          <section className="mt-28 rounded-[2rem] bg-[#151716] p-10 text-white">
-            <span className="text-sm font-medium uppercase tracking-[0.3em] text-[#D4AF37]">
-              Leadership
-            </span>
-
-            <h2 className="mt-4 text-4xl font-bold">
-              Kingsley Chidubem Nwoye{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                (Kingsgold)
-              </span>
-            </h2>
-
-            <p className="mt-3 text-zinc-400">Founder & CEO</p>
-
-            <p className="mt-8 max-w-4xl text-lg leading-9 text-zinc-300">
-              Kingsley Chidubem Nwoye, popularly known as Kingsgold, is a
-              Nigerian software engineer, technology entrepreneur, and the
-              Founder & CEO of Kingsgold Group. Through the Group, he leads a
-              diversified portfolio of companies across multiple industries,
-              with a vision to build innovative businesses that create lasting
-              value and shape the future.
-            </p>
-          </section>
-
-          {/* Motto */}
-
-          <section className="mt-28 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-              <span className="text-zinc-400">From</span>{" "}
-              <span className="text-[#151716]">Coal</span>{" "}
-              {/* <span className="text-zinc-400">→</span>{" "} */}
-              <span className="text-zinc-400">To</span>{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                Gold
-              </span>
-            </h2>
-
-            <p className="mt-5 text-xl text-zinc-500">
-              Building businesses that transform ideas into enduring value.
-            </p>
-          </section>
+          <p className="mt-5 text-xl text-zinc-500">
+            Building businesses that transform ideas into enduring value.
+          </p>
         </section>
       </main>
     </>
