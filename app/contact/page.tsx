@@ -344,7 +344,6 @@
 //   );
 // }
 
-import Header from "@/app/components/Header";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -354,137 +353,133 @@ export const stack_sans_headline = Stack_Sans_Headline({
 
 export default function Contact() {
   return (
-    <>
-      <Header />
+    <main
+      className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
+    >
+      {/* Hero */}
 
-      <main
-        className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
-      >
-        {/* Hero */}
+      <section className="mx-auto max-w-7xl px-6 pt-24 pb-20">
+        <div className="max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Contact Kingsgold Group
+          </span>
 
-        <section className="mx-auto max-w-7xl px-6 pt-24 pb-20">
-          <div className="max-w-4xl">
-            <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-              Contact Kingsgold Group
-            </span>
+          <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
+            Let's Build the{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Future
+            </span>{" "}
+            Together.
+          </h1>
 
-            <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
-              Let's Build the{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                Future
-              </span>{" "}
-              Together.
-            </h1>
+          <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
+            We'd love to hear from entrepreneurs, investors, partners, clients,
+            and anyone interested in learning more about Kingsgold Group. Reach
+            out and let's start the conversation.
+          </p>
+        </div>
+      </section>
 
-            <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
-              We'd love to hear from entrepreneurs, investors, partners,
-              clients, and anyone interested in learning more about Kingsgold
-              Group. Reach out and let's start the conversation.
-            </p>
-          </div>
-        </section>
+      {/* Contact */}
 
-        {/* Contact */}
+      <section className="mx-auto max-w-7xl px-6 pb-28">
+        <div className="grid gap-10 lg:grid-cols-2">
+          {/* Left */}
 
-        <section className="mx-auto max-w-7xl px-6 pb-28">
-          <div className="grid gap-10 lg:grid-cols-2">
-            {/* Left */}
-
-            <div>
-              <h2 className="text-3xl font-bold">
-                Get In <span className="text-[#D4AF37]">Touch</span>
-              </h2>
-
-              <p className="mt-6 leading-8 text-zinc-600">
-                Whether you have a business inquiry, partnership opportunity,
-                media request, or general question, we'd be happy to hear from
-                you.
-              </p>
-
-              <div className="mt-12 space-y-8">
-                <div className="rounded-3xl border border-zinc-200 p-6">
-                  <h3 className="font-semibold text-[#151716]">Email</h3>
-
-                  <p className="mt-2 text-zinc-600">kingsgoldgroup@gmail.com</p>
-                </div>
-
-                <div className="rounded-3xl border border-zinc-200 p-6">
-                  <h3 className="font-semibold text-[#151716]">
-                    Business Inquiries
-                  </h3>
-
-                  <p className="mt-2 text-zinc-600">
-                    Partnerships, investments, collaborations and strategic
-                    opportunities.
-                  </p>
-                </div>
-
-                <div className="rounded-3xl border border-zinc-200 p-6">
-                  <h3 className="font-semibold text-[#151716]">Location</h3>
-
-                  <p className="mt-2 text-zinc-600">Nigeria</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Form */}
-
-            <div className="rounded-[2rem] border border-zinc-200 p-10 shadow-sm">
-              <h2 className="text-3xl font-bold">
-                Send a <span className="text-[#D4AF37]">Message</span>
-              </h2>
-
-              <form className="mt-10 space-y-6">
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
-                />
-
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
-                />
-
-                <input
-                  type="text"
-                  placeholder="Subject"
-                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
-                />
-
-                <textarea
-                  rows={6}
-                  placeholder="Tell us about your inquiry..."
-                  className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
-                />
-
-                <button className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110">
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-
-        <section className="bg-[#151716] py-24 text-center text-white">
-          <div className="mx-auto max-w-4xl px-6">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-              <span className="text-white">From</span>{" "}
-              <span className="text-zinc-400">Coal</span>{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                To Gold
-              </span>
+          <div>
+            <h2 className="text-3xl font-bold">
+              Get In <span className="text-[#D4AF37]">Touch</span>
             </h2>
 
-            <p className="mt-5 text-xl text-zinc-500">
-              Building businesses that transform ideas into enduring value.
+            <p className="mt-6 leading-8 text-zinc-600">
+              Whether you have a business inquiry, partnership opportunity,
+              media request, or general question, we'd be happy to hear from
+              you.
             </p>
+
+            <div className="mt-12 space-y-8">
+              <div className="rounded-3xl border border-zinc-200 p-6">
+                <h3 className="font-semibold text-[#151716]">Email</h3>
+
+                <p className="mt-2 text-zinc-600">kingsgoldgroup@gmail.com</p>
+              </div>
+
+              <div className="rounded-3xl border border-zinc-200 p-6">
+                <h3 className="font-semibold text-[#151716]">
+                  Business Inquiries
+                </h3>
+
+                <p className="mt-2 text-zinc-600">
+                  Partnerships, investments, collaborations and strategic
+                  opportunities.
+                </p>
+              </div>
+
+              <div className="rounded-3xl border border-zinc-200 p-6">
+                <h3 className="font-semibold text-[#151716]">Location</h3>
+
+                <p className="mt-2 text-zinc-600">Nigeria</p>
+              </div>
+            </div>
           </div>
-        </section>
-      </main>
-    </>
+
+          {/* Form */}
+
+          <div className="rounded-[2rem] border border-zinc-200 p-10 shadow-sm">
+            <h2 className="text-3xl font-bold">
+              Send a <span className="text-[#D4AF37]">Message</span>
+            </h2>
+
+            <form className="mt-10 space-y-6">
+              <input
+                type="text"
+                placeholder="Full Name"
+                className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+              />
+
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+              />
+
+              <input
+                type="text"
+                placeholder="Subject"
+                className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+              />
+
+              <textarea
+                rows={6}
+                placeholder="Tell us about your inquiry..."
+                className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
+              />
+
+              <button className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+
+      <section className="bg-[#151716] py-24 text-center text-white">
+        <div className="mx-auto max-w-4xl px-6">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <span className="text-white">From</span>{" "}
+            <span className="text-zinc-400">Coal</span>{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              To Gold
+            </span>
+          </h2>
+
+          <p className="mt-5 text-xl text-zinc-500">
+            Building businesses that transform ideas into enduring value.
+          </p>
+        </div>
+      </section>
+    </main>
   );
 }

@@ -255,7 +255,6 @@
 
 import Link from "next/link";
 import { Stack_Sans_Headline } from "next/font/google";
-import Header from "@/app/components/Header";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
@@ -302,85 +301,83 @@ const companies = [
 
 export default function Businesses() {
   return (
-    <>
-      <Header />
-      <main
-        className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
-      >
-        <section className="mx-auto max-w-7xl px-6 py-24">
-          {/* Hero */}
+    <main
+      className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
+    >
+      <section className="mx-auto max-w-7xl px-6 py-24">
+        {/* Hero */}
 
-          <div className="max-w-4xl">
-            <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-              Our Businesses at Kingsgold Group
+        <div className="max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Our Businesses at Kingsgold Group
+          </span>
+
+          <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
+            Building the{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Future
             </span>
+            ,
+            <br />
+            One Company at a Time.
+          </h1>
 
-            <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
-              Building the{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                Future
+          <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
+            Kingsgold Group is a diversified business group committed to
+            building and growing innovative companies across multiple
+            industries. Every company operates independently while sharing a
+            common vision of innovation, excellence, and sustainable growth.
+          </p>
+        </div>
+
+        {/* Companies */}
+
+        <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+          {companies.map((company) => (
+            <article
+              key={company.name}
+              className="group rounded-[28px] border border-zinc-200 bg-[#FFF4D4] p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#D4AF37] hover:shadow-xl"
+            >
+              <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
+
+              <span className="inline-flex rounded-full bg-[#D4AF37]/10 px-3 py-1 text-sm font-medium text-[#B8860B]">
+                {company.industry}
               </span>
-              ,
-              <br />
-              One Company at a Time.
-            </h1>
 
-            <p className="mt-8 max-w-3xl text-lg leading-9 text-zinc-600">
-              Kingsgold Group is a diversified business group committed to
-              building and growing innovative companies across multiple
-              industries. Every company operates independently while sharing a
-              common vision of innovation, excellence, and sustainable growth.
-            </p>
-          </div>
+              <h2 className="mt-6 text-2xl font-bold text-[#151716] transition-colors group-hover:text-[#D4AF37]">
+                {company.name}
+              </h2>
 
-          {/* Companies */}
+              <p className="mt-5 leading-8 text-zinc-600">
+                {company.description}
+              </p>
 
-          <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {companies.map((company) => (
-              <article
-                key={company.name}
-                className="group rounded-[28px] border border-zinc-200 bg-[#FFF4D4] p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#D4AF37] hover:shadow-xl"
+              <Link
+                href={company.href}
+                target="_blank"
+                className="mt-8 inline-flex items-center font-semibold text-[#D4AF37] transition-all duration-300 hover:translate-x-1"
               >
-                <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
+                Learn More →
+              </Link>
+            </article>
+          ))}
+        </div>
 
-                <span className="inline-flex rounded-full bg-[#D4AF37]/10 px-3 py-1 text-sm font-medium text-[#B8860B]">
-                  {company.industry}
-                </span>
+        {/* Vision */}
 
-                <h2 className="mt-6 text-2xl font-bold text-[#151716] transition-colors group-hover:text-[#D4AF37]">
-                  {company.name}
-                </h2>
+        <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#151716] px-10 py-16 text-center text-white">
+          <h2 className="text-4xl font-bold">
+            United by One <span className="text-[#D4AF37]">Vision.</span>
+          </h2>
 
-                <p className="mt-5 leading-8 text-zinc-600">
-                  {company.description}
-                </p>
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
+            Every company within Kingsgold Group is built to solve meaningful
+            problems, create lasting value, and contribute to Africa's economic
+            transformation through innovation, entrepreneurship, and strategic
+            leadership.
+          </p>
 
-                <Link
-                  href={company.href}
-                  target="_blank"
-                  className="mt-8 inline-flex items-center font-semibold text-[#D4AF37] transition-all duration-300 hover:translate-x-1"
-                >
-                  Learn More →
-                </Link>
-              </article>
-            ))}
-          </div>
-
-          {/* Vision */}
-
-          <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#151716] px-10 py-16 text-center text-white">
-            <h2 className="text-4xl font-bold">
-              United by One <span className="text-[#D4AF37]">Vision.</span>
-            </h2>
-
-            <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
-              Every company within Kingsgold Group is built to solve meaningful
-              problems, create lasting value, and contribute to Africa's
-              economic transformation through innovation, entrepreneurship, and
-              strategic leadership.
-            </p>
-
-            {/* <div className="mt-12">
+          {/* <div className="mt-12">
             <p className="text-4xl font-bold tracking-tight">
               <span className="text-zinc-500">Coal</span>{" "}
               <span className="text-white">→</span>{" "}
@@ -391,25 +388,24 @@ export default function Businesses() {
               Building businesses that transform ideas into enduring value.
             </p>
           </div> */}
-          </section>
-
-          <section className="mt-28 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-              <span className="text-zinc-400">From</span>{" "}
-              <span className="text-[#151716]">Coal</span>{" "}
-              {/* <span className="text-zinc-400">→</span>{" "} */}
-              <span className="text-zinc-400">To</span>{" "}
-              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-                Gold
-              </span>{" "}
-            </h2>
-
-            <p className="mt-5 text-xl text-zinc-500">
-              Building businesses that transform ideas into enduring value.
-            </p>
-          </section>
         </section>
-      </main>
-    </>
+
+        <section className="mt-28 text-center">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <span className="text-zinc-400">From</span>{" "}
+            <span className="text-[#151716]">Coal</span>{" "}
+            {/* <span className="text-zinc-400">→</span>{" "} */}
+            <span className="text-zinc-400">To</span>{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Gold
+            </span>{" "}
+          </h2>
+
+          <p className="mt-5 text-xl text-zinc-500">
+            Building businesses that transform ideas into enduring value.
+          </p>
+        </section>
+      </section>
+    </main>
   );
 }
