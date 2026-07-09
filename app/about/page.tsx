@@ -396,7 +396,7 @@ export default function About() {
 
           <div className="max-w-4xl">
             <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-              About Us
+              About Kingsgold Group
             </span>
 
             <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-6xl">
@@ -419,7 +419,7 @@ export default function About() {
           {/* Mission & Vision */}
 
           <div className="mt-24 grid gap-8 md:grid-cols-2">
-            <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
+            <div className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
               <div className="mb-5 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
               <h2 className="text-2xl font-bold text-[#151716]">Our Mission</h2>
@@ -431,7 +431,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
+            <div className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg">
               <div className="mb-5 h-1 w-12 rounded-full bg-[#D4AF37]" />
 
               <h2 className="text-2xl font-bold text-[#151716]">Our Vision</h2>
@@ -462,7 +462,7 @@ export default function About() {
               {industries.map((item) => (
                 <div
                   key={item.company}
-                  className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
+                  className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
                 >
                   <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
@@ -487,7 +487,7 @@ export default function About() {
               {values.map((value) => (
                 <div
                   key={value}
-                  className="rounded-3xl border border-zinc-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
+                  className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
                 >
                   <h3 className="text-lg font-semibold text-[#151716]">
                     {value}

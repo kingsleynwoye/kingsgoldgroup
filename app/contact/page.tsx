@@ -343,6 +343,7 @@
 //     </main>
 //   );
 // }
+
 import Header from "@/app/components/Header";
 import { Stack_Sans_Headline } from "next/font/google";
 
@@ -364,7 +365,7 @@ export default function Contact() {
         <section className="mx-auto max-w-7xl px-6 pt-24 pb-20">
           <div className="max-w-4xl">
             <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-              Contact Us
+              Contact Kingsgold Group
             </span>
 
             <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
@@ -436,33 +437,29 @@ export default function Contact() {
               <form className="mt-10 space-y-6">
                 <input
                   type="text"
-                  required
                   placeholder="Full Name"
                   className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
                 />
 
                 <input
                   type="email"
-                  required
                   placeholder="Email Address"
                   className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
                 />
 
                 <input
                   type="text"
-                  required
                   placeholder="Subject"
                   className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
                 />
 
                 <textarea
                   rows={6}
-                  required
                   placeholder="Tell us about your inquiry..."
                   className="w-full rounded-2xl border border-zinc-300 px-5 py-4 outline-none transition focus:border-[#D4AF37]"
                 />
 
-                <button className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110 cursor-pointer">
+                <button className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110">
                   Send Message
                 </button>
               </form>
@@ -472,20 +469,20 @@ export default function Contact() {
 
         {/* CTA */}
 
-        <section className="pb-24 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            <span className="text-zinc-400">From</span>{" "}
-            <span className="text-[#151716]">Coal</span>{" "}
-            {/* <span className="text-zinc-400">→</span>{" "} */}
-            <span className="text-zinc-400">To</span>{" "}
-            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-              Gold
-            </span>{" "}
-          </h2>
+        <section className="bg-[#151716] py-24 text-center text-white">
+          <div className="mx-auto max-w-4xl px-6">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+              <span className="text-white">From</span>{" "}
+              <span className="text-zinc-400">Coal</span>{" "}
+              <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+                To Gold
+              </span>
+            </h2>
 
-          <p className="mt-5 text-xl text-zinc-500">
-            Building businesses that transform ideas into enduring value.
-          </p>
+            <p className="mt-5 text-xl text-zinc-500">
+              Building businesses that transform ideas into enduring value.
+            </p>
+          </div>
         </section>
       </main>
     </>

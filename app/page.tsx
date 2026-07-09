@@ -271,14 +271,14 @@ export default function Home() {
           <div className="mt-10 flex flex-row gap-4 sm:flex-row">
             <Link
               href="/about"
-              className="rounded-full bg-[#151716] px-8 py-4 font-semibold text-white transition hover:bg-black"
+              className="rounded-full bg-[#151716] px-8 py-3.5 font-semibold text-white transition hover:bg-black"
             >
               About Us
             </Link>
 
             <Link
               href="/businesses"
-              className="rounded-full border border-[#D4AF37] px-8 py-4 font-semibold bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] text-[#151716] shadow-lg hover:brightness-110 transition hover:text-[#151716]"
+              className="rounded-full border border-[#D4AF37] px-8 py-3.5 font-semibold bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] text-[#151716] shadow-lg hover:brightness-110 transition hover:text-[#151716]"
             >
               Our Businesses
             </Link>
@@ -288,7 +288,7 @@ export default function Home() {
             {companies.map((company) => (
               <div
                 key={company.name}
-                className="rounded-3xl border border-zinc-200 bg-white p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
+                className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
               >
                 <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
