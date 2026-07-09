@@ -19,7 +19,7 @@ export default function Footer() {
 
           <div className="md:col-span-2">
             <Link href="/" className="inline-block">
-              <h2 className="text-4xl font-black tracking-tight">
+              <h2 className="text-3xl font-black tracking-tight">
                 <span className="text-[#151716]">KINGS</span>
                 <span className="bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] bg-clip-text text-transparent">
                   GOLD
