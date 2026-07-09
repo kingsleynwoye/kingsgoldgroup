@@ -45,9 +45,9 @@ export default function Header() {
               </span>
             </h1>
 
-            {/* <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.45em] text-zinc-500">
+            <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.45em] text-zinc-500">
               GROUP
-            </p> */}
+            </p>
           </div>
         </Link>
 

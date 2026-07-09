@@ -344,7 +344,7 @@
 //   );
 // }
 
-import Header from "@/components/Header";
+import Header from "@/app/components/Header";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({

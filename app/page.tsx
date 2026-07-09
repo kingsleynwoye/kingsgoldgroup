@@ -188,7 +188,7 @@
 
 import Link from "next/link";
 import { Stack_Sans_Headline } from "next/font/google";
-import Header from "@/components/Header";
+import Header from "@/app/components/Header";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
