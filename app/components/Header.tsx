@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { usePathname } from "next/navigation";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -31,6 +32,7 @@ const navigation = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header
@@ -58,15 +60,23 @@ export default function Header() {
         {/* Desktop Navigation */}
 
         <nav className="hidden items-center gap-10 lg:flex">
-          {navigation.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="font-medium text-zinc-600 transition hover:text-[#151716] text-base"
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.map((item) => {
+            const active = pathname === item.href;
+
+            return (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`text-base font-medium transition-colors duration-300 ${
+                  active
+                    ? "bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent"
+                    : "text-[#151716] hover:text-[#B8860B]"
+                }`}
+              >
+                {item.name}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Desktop CTA */}
@@ -95,16 +105,24 @@ export default function Header() {
       {open && (
         <div className="border-t border-zinc-200 bg-white lg:hidden">
           <nav className="flex flex-col px-6 py-6">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="rounded-xl px-4 py-4 font-medium text-zinc-700 transition hover:bg-zinc-100 text-base"
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const active = pathname === item.href;
+
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  className={`rounded-xl px-4 py-4 text-base font-medium transition-all duration-300 ${
+                    active
+                      ? "bg-[#D4AF37]/10 bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent"
+                      : "text-[#151716] hover:bg-zinc-100"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
 
             <Link
               href="/contact"

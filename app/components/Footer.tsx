@@ -88,21 +88,23 @@ export default function Footer() {
             <ul className="mt-5 space-y-3 text-zinc-600">
               <li>
                 <a
-                  href="mailto:hello@kingsgoldgroup.com"
-                  className="transition hover:text-[#C9971A]"
-                >
-                  hello@kingsgoldgroup.com
-                </a>
-              </li>
-
-              <li>
-                <a
                   href="https://linkedin.com/company/kingsgoldgroup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition hover:text-[#C9971A]"
                 >
                   LinkedIn
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/@kingsgoldgroup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-[#C9971A]"
+                >
+                  YouTube
                 </a>
               </li>
 
