@@ -93,10 +93,10 @@ export default function Header() {
 
         <div className="hidden lg:block">
           <Link
-            href="/contact"
+            href="/security"
             className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-6 py-3 font-semibold text-[#151716] shadow-lg transition duration-300 hover:scale-105 hover:shadow-xl"
           >
-            Get in Touch
+            Security
           </Link>
         </div>
 
@@ -135,11 +135,11 @@ export default function Header() {
             })}
 
             <Link
-              href="/contact"
+              href="/security"
               onClick={() => setOpen(false)}
               className="mt-4 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-6 py-4 text-center font-semibold text-[#151716]"
             >
-              Get in Touch
+              Security
             </Link>
           </nav>
         </div>

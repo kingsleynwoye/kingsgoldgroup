@@ -99,12 +99,23 @@ export default function Footer() {
             <ul className="mt-5 space-y-3 text-zinc-600">
               <li>
                 <a
-                  href="https://linkedin.com/company/kingsgoldgroup"
+                  href="https://www.facebook.com/kingsgoldgroup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition hover:text-[#C9971A]"
                 >
-                  LinkedIn
+                  Facebook
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/kingsgoldgroup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-[#C9971A]"
+                >
+                  Instagram
                 </a>
               </li>
 
@@ -121,23 +132,12 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://x.com/kingsgoldgroup"
+                  href="https://www.tiktok.com/@kingsgoldgroup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition hover:text-[#C9971A]"
                 >
-                  X (Twitter)
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://github.com/kingsgoldgroup"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition hover:text-[#C9971A]"
-                >
-                  GitHub
+                  TikTok
                 </a>
               </li>
             </ul>

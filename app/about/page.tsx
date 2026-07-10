@@ -344,7 +344,7 @@
 //   );
 // }
 
-import Header from "@/app/components/Header";
+import Image from "next/image";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -497,7 +497,7 @@ export default function About() {
 
         {/* Founder */}
 
-        <section className="mt-28 rounded-[2rem] bg-[#151716] p-10 text-white">
+        {/* <section className="mt-28 rounded-[2rem] bg-[#151716] p-10 text-white">
           <span className="text-sm font-medium uppercase tracking-[0.3em] text-[#D4AF37]">
             Leadership
           </span>
@@ -519,6 +519,51 @@ export default function About() {
             innovative businesses that create lasting value and shape the
             future.
           </p>
+        </section> */}
+
+        <section className="mt-20 rounded-[2rem] bg-[#151716] px-6 py-8 text-white sm:px-8 sm:py-10 lg:mt-28 lg:p-10">
+          <div className="grid gap-8 lg:grid-cols-[320px_1fr] lg:items-center lg:gap-10">
+            {/* Image */}
+            <div className="flex justify-center lg:justify-start">
+              <div className="relative mx-auto h-[380px] w-full max-w-[300px] overflow-hidden rounded-3xl border border-[#D4AF37]/30 bg-zinc-900 sm:h-[420px] sm:max-w-[320px]">
+                <Image
+                  src="/images/kingsley-nwoye.jpg"
+                  alt="Kingsley Chidubem Nwoye (Kingsgold)"
+                  fill
+                  priority
+                  className="object-cover object-top"
+                  sizes="(max-width: 640px) 280px, 320px"
+                />
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="text-center lg:text-left">
+              <span className="text-xs font-medium uppercase tracking-[0.3em] text-[#D4AF37] sm:text-sm">
+                Leadership
+              </span>
+
+              <h2 className="mt-4 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+                Kingsley Chidubem Nwoye{" "}
+                <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+                  (Kingsgold)
+                </span>
+              </h2>
+
+              <p className="mt-3 text-sm text-zinc-400 sm:text-base">
+                Founder & CEO, Kingsgold Group
+              </p>
+
+              <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-300 sm:text-lg sm:leading-9 lg:mx-0 lg:mt-8">
+                Kingsley Chidubem Nwoye, popularly known as Kingsgold, is a
+                Nigerian software engineer, technology entrepreneur, and the
+                Founder & CEO of Kingsgold Group. Through the Group, he leads a
+                diversified portfolio of companies across multiple industries,
+                with a vision to build innovative businesses that create lasting
+                value and shape the future.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Motto */}
