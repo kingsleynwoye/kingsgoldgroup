@@ -224,7 +224,7 @@ export default function Home() {
     <main
       className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
     >
-      {/* <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 text-center">
+      {/* <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-28 text-center">
         <span className="mb-6 rounded-full border border-[#D4AF37]/30 bg-[#BD971D]/10 px-5 py-2 text-sm font-medium text-[#B8860B] uppercase">
           Welcome To
         </span>
@@ -247,7 +247,7 @@ export default function Home() {
           </span>
         </h2>
       </section> */}
-      <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 text-center">
+      <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-28 text-center">
         <span className="mb-5 rounded-full border border-[#D4AF37]/30 bg-[#bd971d]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
           Welcome to Kingsgold Group
         </span>

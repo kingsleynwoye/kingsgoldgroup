@@ -358,7 +358,7 @@ export default function Contact() {
     >
       {/* Hero */}
 
-      <section className="mx-auto max-w-7xl px-6 pt-24 pb-20">
+      <section className="mx-auto max-w-7xl px-6 pt-28 pb-20">
         <div className="max-w-4xl">
           <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
             Contact Kingsgold Group

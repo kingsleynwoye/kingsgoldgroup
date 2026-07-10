@@ -389,7 +389,7 @@ export default function About() {
     <main
       className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
     >
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="mx-auto max-w-7xl px-6 py-28">
         {/* Hero */}
 
         <div className="max-w-4xl">
