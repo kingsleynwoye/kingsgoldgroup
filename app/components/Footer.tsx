@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Stack_Sans_Headline } from "next/font/google";
+// import Image from "next/image";
+import Logo from "./Logo";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
@@ -19,12 +21,21 @@ export default function Footer() {
 
           <div className="md:col-span-2">
             <Link href="/" className="inline-block">
-              <h2 className="text-3xl font-black tracking-tight">
+              {/* <h2 className="text-3xl font-black tracking-tight">
                 <span className="text-[#151716]">KINGS</span>
                 <span className="bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] bg-clip-text text-transparent">
                   GOLD
                 </span>
-              </h2>
+              </h2> */}
+              {/* <Image
+                src="/logo/Kingsgold Logo.png"
+                alt="Kingsgold Logo"
+                width={500}
+                height={160}
+                priority
+                className="h-12 w-auto"
+              /> */}
+              <Logo />
             </Link>
 
             <p className="mt-6 max-w-md leading-8 text-zinc-600">

@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { Stack_Sans_Headline } from "next/font/google";
+// import Image from "next/image";
+import Logo from "./Logo";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
@@ -42,19 +44,27 @@ export default function Header() {
         {/* Logo */}
 
         <Link href="/" className="group">
-          <div className="leading-none">
+          {/* <div className="leading-none">
             <h1 className="text-3xl font-black tracking-tight">
               <span className="text-[#151716]">KINGS</span>
 
               <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
                 GOLD
               </span>
-            </h1>
-
-            {/* <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.45em] text-zinc-500">
+            </h1> */}
+          {/* <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.45em] text-zinc-500">
               GROUP
             </p> */}
-          </div>
+          {/* </div> */}
+          {/* <Image
+            src="/logo/Kingsgold Logo.png"
+            alt="Kingsgold Logo"
+            width={500}
+            height={160}
+            priority
+            className="h-12 w-auto"
+          /> */}
+          <Logo />
         </Link>
 
         {/* Desktop Navigation */}
