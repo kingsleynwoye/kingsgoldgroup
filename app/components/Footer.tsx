@@ -34,12 +34,12 @@ export default function Footer() {
               strategic leadership.
             </p>
 
-            <p className="mt-6 text-sm font-medium text-zinc-500">
+            {/* <p className="mt-6 text-sm font-medium text-zinc-500">
               From <span className="text-[#151716]">Coal</span> To{" "}
               <span className="bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] bg-clip-text text-transparent">
                 Gold
               </span>
-            </p>
+            </p> */}
           </div>
 
           {/* Company */}
