@@ -544,7 +544,7 @@ export default function About() {
               </span>
 
               <h2 className="mt-4 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
-                Kingsley Chidubem Nwoye{" "}
+                Kingsley Nwoye{" "}
                 <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
                   (Kingsgold)
                 </span>

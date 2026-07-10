@@ -72,7 +72,6 @@ export default function Header() {
         <nav className="hidden items-center gap-10 lg:flex">
           {navigation.map((item) => {
             const active = pathname === item.href;
-
             return (
               <Link
                 key={item.name}
@@ -122,7 +121,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  onClick={() => setOpen(false)}
+                  onClick={() => setOpen(!open)}
                   className={`rounded-xl px-4 py-4 text-base font-medium transition-all duration-300 ${
                     active
                       ? "bg-[#D4AF37]/10 bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent"
@@ -136,7 +135,7 @@ export default function Header() {
 
             <Link
               href="/security"
-              onClick={() => setOpen(false)}
+              onClick={() => setOpen(!open)}
               className="mt-4 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-6 py-4 text-center font-semibold text-[#151716]"
             >
               Security
