@@ -97,6 +97,12 @@ export default function Footer() {
                   Our Security
                 </Link>
               </li>
+
+              <li>
+                <Link href="/faqs" className="transition hover:text-[#C9971A]">
+                  FAQs
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -158,6 +164,17 @@ export default function Footer() {
                   className="transition hover:text-[#C9971A]"
                 >
                   TikTok
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/kingsgoldgroup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-[#C9971A]"
+                >
+                  LinkedIn
                 </a>
               </li>
             </ul>

@@ -30,6 +30,10 @@ const navigation = [
     name: "Contact Us",
     href: "/contact",
   },
+  {
+    name: "FAQs",
+    href: "/faqs",
+  },
 ];
 
 export default function Header() {
