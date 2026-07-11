@@ -18,7 +18,7 @@ export default function Security() {
             Our Security at Kingsgold Group
           </span>
 
-          <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
+          <h1 className="mt-8 text-3xl font-bold tracking-tight md:text-6xl">
             Security is at the{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
               Core

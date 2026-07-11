@@ -364,7 +364,7 @@ export default function Contact() {
             Contact Kingsgold Group
           </span>
 
-          <h1 className="mt-8 text-5xl font-bold tracking-tight md:text-7xl">
+          <h1 className="mt-8 text-3xl font-bold tracking-tight md:text-6xl">
             Let's Build the{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
               Future
@@ -465,13 +465,14 @@ export default function Contact() {
 
       {/* CTA */}
 
-      <section className="bg-[#151716] py-24 text-center text-white">
+      <section className="bg-[#FFF4D4] py-24 text-center text-white">
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            <span className="text-white">From</span>{" "}
-            <span className="text-zinc-400">Coal</span>{" "}
+            <span className="text-zinc-400">From</span>{" "}
+            <span className="text-[#151716]">Coal</span>{" "}
+            <span className="text-zinc-400">To</span>{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-              To Gold
+              Gold
             </span>
           </h2>
 
