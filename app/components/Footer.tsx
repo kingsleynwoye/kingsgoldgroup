@@ -67,7 +67,7 @@ export default function Footer() {
 
               <li>
                 <Link href="/about" className="transition hover:text-[#C9971A]">
-                  About
+                  About Us
                 </Link>
               </li>
 
@@ -76,7 +76,7 @@ export default function Footer() {
                   href="/businesses"
                   className="transition hover:text-[#C9971A]"
                 >
-                  Businesses
+                  Our Businesses
                 </Link>
               </li>
 
@@ -85,7 +85,16 @@ export default function Footer() {
                   href="/contact"
                   className="transition hover:text-[#C9971A]"
                 >
-                  Contact
+                  Contact Us
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/security"
+                  className="transition hover:text-[#C9971A]"
+                >
+                  Our Security
                 </Link>
               </li>
             </ul>
@@ -116,6 +125,17 @@ export default function Footer() {
                   className="transition hover:text-[#C9971A]"
                 >
                   Instagram
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://x.com/kingsgoldgroup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-[#C9971A]"
+                >
+                  X (Twitter)
                 </a>
               </li>
 

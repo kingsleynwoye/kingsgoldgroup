@@ -19,15 +19,15 @@ const navigation = [
     href: "/",
   },
   {
-    name: "About",
+    name: "About Us",
     href: "/about",
   },
   {
-    name: "Businesses",
+    name: "Our Businesses",
     href: "/businesses",
   },
   {
-    name: "Contact",
+    name: "Contact Us",
     href: "/contact",
   },
 ];
@@ -95,7 +95,7 @@ export default function Header() {
             href="/security"
             className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-6 py-3 font-semibold text-[#151716] shadow-lg transition duration-300 hover:scale-105 hover:shadow-xl"
           >
-            Security
+            Our Security
           </Link>
         </div>
 
@@ -138,7 +138,7 @@ export default function Header() {
               onClick={() => setOpen(!open)}
               className="mt-4 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-6 py-4 text-center font-semibold text-[#151716]"
             >
-              Security
+              Our Security
             </Link>
           </nav>
         </div>

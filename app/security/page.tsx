@@ -124,9 +124,9 @@ export default function Security() {
         </div>
       </section>
 
-      <section className="bg-[#151716] py-24 text-center text-white">
+      <section className="bg-[#FFF4D4] py-24 text-center text-black">
         <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl font-bold md:text-5xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
             Building Secure Businesses for the Future
           </h2>
 
