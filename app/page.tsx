@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
@@ -11,22 +12,27 @@ const companies = [
   {
     name: "Range Universe",
     category: "Technology",
+    image: "/logo/rangeuniverse-logo.png",
   },
   {
     name: "TrustnFund",
     category: "Finance",
+    image: "/logo/trustnfund-logo.png",
   },
   {
     name: "Staydeck",
     category: "Real Estate",
+    image: "/logo/staydeck-logo.png",
   },
   {
     name: "Nature Ambiance",
     category: "Agriculture",
+    image: "/logo/natureambiance-logo.png",
   },
   {
     name: "DiceSea",
     category: "Creative",
+    image: "/logo/dicesea-logo.png",
   },
 ];
 
@@ -102,19 +108,32 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-5">
+        <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-4">
           {companies.map((company) => (
             <div
               key={company.name}
               className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
             >
-              <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
-              <h3 className="text-lg font-semibold text-[#151716]">
-                {company.name}
-              </h3>
+                  <h3 className="text-lg font-semibold text-[#151716]">
+                    {company.name}
+                  </h3>
 
-              <p className="mt-2 text-sm text-zinc-500">{company.category}</p>
+                  <p className="mt-2 text-sm text-zinc-500">
+                    {company.category}
+                  </p>
+                </div>
+                <Image
+                  src={company.image}
+                  alt={company.name}
+                  width={56}
+                  height={56}
+                  className="h-14 w-14 object-contain rounded-lg"
+                />
+              </div>
             </div>
           ))}
         </div>
