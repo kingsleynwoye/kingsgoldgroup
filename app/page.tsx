@@ -31,12 +31,12 @@ const companies = [
 ];
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Kingsgold Group",
   description:
     "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
 
   openGraph: {
-    title: "Home | Kingsgold Group",
+    title: "Kingsgold Group",
     description:
       "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
     url: "https://kingsgoldgroup.vercel.app",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Home | Kingsgold Group",
+    title: "Kingsgold Group",
     description:
       "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
     images: [
