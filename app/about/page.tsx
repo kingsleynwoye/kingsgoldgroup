@@ -374,6 +374,10 @@ const industries = [
     title: "Creative & Entertainment",
     company: "DiceSea",
   },
+  {
+    title: "Media",
+    company: "From Coal To Gold",
+  },
 ];
 
 const values = [

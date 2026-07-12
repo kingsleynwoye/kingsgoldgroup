@@ -34,6 +34,11 @@ const companies = [
     category: "Creative",
     image: "/logo/dicesea-logo.png",
   },
+  {
+    name: "From Coal To Gold",
+    category: "Media",
+    image: "/logo/fromcoaltogold-logo.png",
+  },
 ];
 
 export const metadata: Metadata = {

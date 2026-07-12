@@ -281,7 +281,7 @@ const companies = [
     name: "Staydeck",
     industry: "Real Estate",
     description:
-      "Transforming how people discover, rent, buy, and manage properties through technology and innovation.",
+      "Transforming how people discover, book, and manage properties through technology and innovation.",
     href: "https://staydeck.vercel.app",
   },
   {
@@ -297,6 +297,13 @@ const companies = [
     description:
       "Delivering creative experiences through media, entertainment, branding, and digital storytelling.",
     href: "https://dicesea.vercel.app",
+  },
+  {
+    name: "From Coal To Gold",
+    industry: "Media",
+    description:
+      "Sharing real stories and powerful lessons on mindset, discipline, and financial growth through engaging and entertaining content.",
+    href: "https://fromcoaltogold.vercel.app",
   },
 ];
 
@@ -474,6 +481,10 @@ export default function Businesses() {
 
             <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
               Agriculture
+            </span>
+
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Media
             </span>
 
             <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
