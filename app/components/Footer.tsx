@@ -33,12 +33,12 @@ export default function Footer() {
       href: "/contact",
     },
     {
-      name: "Our Security",
-      href: "/security",
-    },
-    {
       name: "FAQs",
       href: "/faqs",
+    },
+    {
+      name: "Our Security",
+      href: "/security",
     },
   ];
 

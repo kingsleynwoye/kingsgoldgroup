@@ -467,7 +467,7 @@ export default function Contact() {
 
       <section className="bg-[#FFF4D4] py-24 text-center text-white">
         <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             <span className="text-zinc-400">From</span>{" "}
             <span className="text-[#151716]">Coal</span>{" "}
             <span className="text-zinc-400">To</span>{" "}
@@ -476,8 +476,11 @@ export default function Contact() {
             </span>
           </h2>
 
-          <p className="mt-5 text-xl text-zinc-500">
+          {/* <p className="mt-5 text-xl text-zinc-500">
             Building businesses that transform ideas into enduring value.
+          </p> */}
+          <p className="mt-5 text-base md:text-xl text-zinc-500">
+            Building Businesses That Shape the Future.
           </p>
         </div>
       </section>

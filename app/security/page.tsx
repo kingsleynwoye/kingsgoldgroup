@@ -124,7 +124,7 @@ export default function Security() {
         </div>
       </section>
 
-      <section className="bg-[#FFF4D4] py-24 text-center text-black">
+      {/* <section className="bg-[#FFF4D4] py-24 text-center text-black">
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold md:text-4xl">
             Building Secure Businesses for the Future
@@ -136,6 +136,24 @@ export default function Security() {
             Group.
           </p>
         </div>
+      </section> */}
+      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          <span className="text-zinc-400">From</span>{" "}
+          <span className="text-[#151716]">Coal</span>{" "}
+          {/* <span className="text-zinc-400">→</span>{" "} */}
+          <span className="text-zinc-400">To</span>{" "}
+          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+            Gold
+          </span>
+        </h2>
+
+        {/* <p className="mt-5 text-xl text-zinc-500">
+          Building businesses that transform ideas into enduring value.
+        </p> */}
+        <p className="mt-5 text-base md:text-xl text-zinc-500">
+          Building Businesses That Shape the Future.
+        </p>
       </section>
     </main>
   );

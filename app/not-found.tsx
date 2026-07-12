@@ -9,9 +9,11 @@ export const stack_sans_headline = Stack_Sans_Headline({
 export default function NotFound() {
   return (
     <main
-      className={`flex min-h-screen items-center justify-center bg-white px-6 ${stack_sans_headline.className}`}
+      className={`min-h-screen bg-white text-[#151716] ${stack_sans_headline.className}`}
     >
-      <div className="mx-auto max-w-4xl text-center py-28">
+      {/* Hero */}
+
+      <section className="mx-auto max-w-7xl px-6 py-28 pb-20 text-center">
         {/* Badge */}
 
         <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
@@ -59,7 +61,7 @@ export default function NotFound() {
 
         {/* Brand */}
 
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <h3 className="text-2xl font-bold">
             <span className="text-zinc-400">From</span>{" "}
             <span className="text-[#151716]">Coal</span>{" "}
@@ -72,8 +74,26 @@ export default function NotFound() {
           <p className="mt-4 text-zinc-500">
             Building Businesses That Shape the Future.
           </p>
-        </div>
-      </div>
+        </div> */}
+      </section>
+      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          <span className="text-zinc-400">From</span>{" "}
+          <span className="text-[#151716]">Coal</span>{" "}
+          {/* <span className="text-zinc-400">→</span>{" "} */}
+          <span className="text-zinc-400">To</span>{" "}
+          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+            Gold
+          </span>
+        </h2>
+
+        {/* <p className="mt-5 text-xl text-zinc-500">
+          Building businesses that transform ideas into enduring value.
+        </p> */}
+        <p className="mt-5 text-base md:text-xl text-zinc-500">
+          Building Businesses That Shape the Future.
+        </p>
+      </section>
     </main>
   );
 }

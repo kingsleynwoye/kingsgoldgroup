@@ -109,7 +109,7 @@ export default function Header() {
           onClick={() => setOpen(!open)}
           className="rounded-lg p-2 text-[#151716] transition hover:bg-zinc-100 lg:hidden"
         >
-          {open ? <X size={30} /> : <Menu size={30} />}
+          {open ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
