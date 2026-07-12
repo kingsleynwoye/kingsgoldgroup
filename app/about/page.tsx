@@ -555,9 +555,9 @@ export default function About() {
               </p>
 
               <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-300 sm:text-lg sm:leading-9 lg:mx-0 lg:mt-8">
-                Kingsley Chidubem Nwoye, popularly known as Kingsgold, is a
-                Nigerian software engineer, technology entrepreneur, and the
-                Founder & CEO of Kingsgold Group. Through the Group, he leads a
+                Kingsley Chidubem Nwoye, also known as Kingsgold, is a Nigerian
+                software engineer, technology entrepreneur, and the Founder &
+                CEO of Kingsgold Group. Through the Group, he leads a
                 diversified portfolio of companies across multiple industries,
                 with a vision to build innovative businesses that create lasting
                 value and shape the future.

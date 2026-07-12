@@ -167,7 +167,7 @@ export default function Home() {
         </div>
       </section> */}
 
-      <section className="bg-white px-6 pb-28">
+      <section className="bg-[#151716] px-6 py-28">
         <div className="mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-[2rem] border border-[#D4AF37]/20 bg-gradient-to-br from-[#1A1C1B] to-[#0F100F] p-8 md:p-14">
             {/* Decorative Glow */}
