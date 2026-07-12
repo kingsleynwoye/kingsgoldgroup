@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy | Kingsgold Group",
     description:
       "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
-    url: "https://kingsgoldgroup.vercel.app/about",
+    url: "https://kingsgoldgroup.vercel.app/privacy",
     images: [
       {
         url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
