@@ -10,6 +10,31 @@ export const metadata: Metadata = {
   title: "Security",
   description:
     "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
+
+  openGraph: {
+    title: "Security | Kingsgold Group",
+    description:
+      "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
+    url: "https://kingsgoldgroup.vercel.app/security",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Security | Kingsgold Group",
+    description:
+      "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function Security() {

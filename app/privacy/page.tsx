@@ -10,6 +10,31 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
+
+  openGraph: {
+    title: "Privacy Policy | Kingsgold Group",
+    description:
+      "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
+    url: "https://kingsgoldgroup.vercel.app/about",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | Kingsgold Group",
+    description:
+      "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function Privacy() {

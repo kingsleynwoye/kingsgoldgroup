@@ -304,6 +304,31 @@ export const metadata: Metadata = {
   title: "Our Businesses",
   description:
     "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
+
+  openGraph: {
+    title: "Our Businesses | Kingsgold Group",
+    description:
+      "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
+    url: "https://kingsgoldgroup.vercel.app/businesses",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Businesses | Kingsgold Group",
+    description:
+      "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function Businesses() {

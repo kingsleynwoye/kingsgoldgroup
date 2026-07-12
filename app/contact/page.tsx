@@ -356,6 +356,31 @@ export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
+
+  openGraph: {
+    title: "Contact Us | Kingsgold Group",
+    description:
+      "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
+    url: "https://kingsgoldgroup.vercel.app/contact",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Kingsgold Group",
+    description:
+      "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function Contact() {

@@ -10,6 +10,31 @@ export const metadata: Metadata = {
   title: "Terms of Use",
   description:
     "Read the terms and conditions governing the use of the Kingsgold Group website.",
+
+  openGraph: {
+    title: "Terms of Use | Kingsgold Group",
+    description:
+      "Read the terms and conditions governing the use of the Kingsgold Group website.",
+    url: "https://kingsgoldgroup.vercel.app/terms",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Use | Kingsgold Group",
+    description:
+      "Read the terms and conditions governing the use of the Kingsgold Group website.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function Terms() {

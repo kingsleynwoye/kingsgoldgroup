@@ -50,9 +50,34 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "FAQs",
+  title: "Frequently Asked Questions",
   description:
     "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
+
+  openGraph: {
+    title: "Frequently Asked Questions | Kingsgold Group",
+    description:
+      "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
+    url: "https://kingsgoldgroup.vercel.app/faqs",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Frequently Asked Questions | Kingsgold Group",
+    description:
+      "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
 };
 
 export default function FAQs() {
