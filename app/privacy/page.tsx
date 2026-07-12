@@ -115,15 +115,23 @@ export default function Privacy() {
           </div>
         </div>
       </section>
-      <section className="bg-[#FFF4D4] py-24 text-center">
-        <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Building Businesses That Shape the Future.
+      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Your Privacy Matters
+          </span>
+
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
+            Building Trust Through{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Transparency.
+            </span>
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-zinc-600">
-            Trust, transparency, and responsible data practices are fundamental
-            to how Kingsgold Group operates and builds lasting relationships.
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
+            At Kingsgold Group, we are committed to protecting your privacy,
+            respecting your personal information, and maintaining transparent
+            data practices. Your trust is fundamental to everything we build.
           </p>
         </div>
       </section>

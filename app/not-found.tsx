@@ -76,23 +76,26 @@ export default function NotFound() {
           </p>
         </div> */}
       </section>
-      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          <span className="text-zinc-400">From</span>{" "}
-          <span className="text-[#151716]">Coal</span>{" "}
-          {/* <span className="text-zinc-400">→</span>{" "} */}
-          <span className="text-zinc-400">To</span>{" "}
-          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-            Gold
+      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Keep Exploring
           </span>
-        </h2>
 
-        {/* <p className="mt-5 text-xl text-zinc-500">
-          Building businesses that transform ideas into enduring value.
-        </p> */}
-        <p className="mt-5 text-base md:text-xl text-zinc-500">
-          Building Businesses That Shape the Future.
-        </p>
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
+            The Journey Doesn't{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              End Here.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
+            The page you're looking for may have moved or no longer exist, but
+            there's still plenty to discover. Explore Kingsgold Group, learn
+            about our businesses, and see how we're building companies that
+            shape the future.
+          </p>
+        </div>
       </section>
     </main>
   );

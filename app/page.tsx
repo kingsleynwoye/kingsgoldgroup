@@ -102,23 +102,91 @@ export default function Home() {
           </p>
         </div> */}
       </section>
-      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          <span className="text-zinc-400">From</span>{" "}
-          <span className="text-[#151716]">Coal</span>{" "}
-          {/* <span className="text-zinc-400">→</span>{" "} */}
-          <span className="text-zinc-400">To</span>{" "}
-          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-            Gold
-          </span>
-        </h2>
 
-        {/* <p className="mt-5 text-xl text-zinc-500">
-          Building businesses that transform ideas into enduring value.
-        </p> */}
-        <p className="mt-5 text-base md:text-xl text-zinc-500">
-          Building Businesses That Shape the Future.
-        </p>
+      <section className="bg-white px-6 pb-24">
+        <div className="mx-auto max-w-5xl">
+          <div className="rounded-[2rem] border border-[#D4AF37]/20 bg-[#FFF4D4] p-8 shadow-sm md:p-14">
+            {/* Top */}
+
+            <div className="flex items-center gap-4">
+              <div className="h-12 w-1 rounded-full bg-gradient-to-b from-[#9F690F] via-[#FFEB5F] to-[#C9971A]" />
+
+              <div>
+                <span className="text-sm font-semibold uppercase tracking-[0.3em] text-[#B8860B]">
+                  Founder&apos;s Message
+                </span>
+
+                <h2 className="mt-2 text-3xl font-bold text-[#151716] md:text-4xl">
+                  The Story Behind{" "}
+                  <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+                    Kingsgold
+                  </span>
+                </h2>
+              </div>
+            </div>
+
+            {/* Quote */}
+
+            <div className="mt-10">
+              <span className="text-7xl font-bold leading-none text-[#D4AF37]/30">
+                “
+              </span>
+
+              <blockquote className="-mt-8 pl-8 text-xl leading-10 text-zinc-700 md:text-2xl">
+                When I was a boy, my nickname was{" "}
+                <span className="font-semibold text-[#151716]">Kingsgold</span>.
+                Today, that name has become a vision to build businesses that
+                shape the future.
+              </blockquote>
+            </div>
+
+            {/* Signature */}
+
+            <div className="mt-12 flex items-center justify-between border-t border-[#D4AF37]/20 pt-8">
+              <div>
+                <p className="text-xl font-bold text-[#151716]">
+                  Kingsley Chidubem Nwoye
+                </p>
+
+                <p className="mt-1 text-zinc-500">
+                  Founder & CEO, Kingsgold Group
+                </p>
+              </div>
+
+              <div className="hidden md:block text-right">
+                <p className="text-sm uppercase tracking-[0.3em] text-[#B8860B]">
+                  Building Businesses
+                </p>
+
+                <p className="mt-1 font-semibold text-[#151716]">
+                  That Shape the Future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Our Vision
+          </span>
+
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
+            Building Businesses That{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Shape the Future.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
+            We believe that great businesses create lasting impact. Through
+            entrepreneurship, innovation, and long-term thinking, Kingsgold
+            Group is building a portfolio of companies that empower people,
+            transform industries, and contribute to a better future.
+          </p>
+        </div>
       </section>
     </main>
   );

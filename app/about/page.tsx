@@ -583,23 +583,47 @@ export default function About() {
           </p>
         </section> */}
       </section>
-      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          <span className="text-zinc-400">From</span>{" "}
-          <span className="text-[#151716]">Coal</span>{" "}
-          {/* <span className="text-zinc-400">→</span>{" "} */}
-          <span className="text-zinc-400">To</span>{" "}
-          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-            Gold
+      <section className="bg-[#151716] px-6 py-24 text-center text-white">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#D4AF37]">
+            Our Vision
           </span>
-        </h2>
 
-        {/* <p className="mt-5 text-xl text-zinc-500">
-          Building businesses that transform ideas into enduring value.
-        </p> */}
-        <p className="mt-5 text-base md:text-xl text-zinc-500">
-          Building Businesses That Shape the Future.
-        </p>
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-6xl">
+            Building Businesses
+            <br />
+            That Shape the{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Future.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
+            At Kingsgold Group, we believe that great businesses are built with
+            vision, innovation, and long-term thinking. Every company within our
+            portfolio is driven by a shared commitment to creating lasting
+            value, empowering people, and contributing to sustainable economic
+            growth.
+          </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <div className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-6 py-3 text-sm text-zinc-300">
+              Innovation
+            </div>
+
+            <div className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-6 py-3 text-sm text-zinc-300">
+              Entrepreneurship
+            </div>
+
+            <div className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-6 py-3 text-sm text-zinc-300">
+              Long-Term Value
+            </div>
+
+            <div className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-6 py-3 text-sm text-zinc-300">
+              Sustainable Growth
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );

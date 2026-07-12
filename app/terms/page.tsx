@@ -124,16 +124,24 @@ export default function Terms() {
           </div>
         </div>
       </section>
-      <section className="bg-[#FFF4D4] py-24 text-center">
-        <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Building Businesses That Shape the Future.
+      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Terms of Use
+          </span>
+
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
+            Building Trust Through{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Responsibility.
+            </span>
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-zinc-600">
-            By using our website, you help us maintain a safe, respectful, and
-            transparent environment for everyone who interacts with Kingsgold
-            Group.
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
+            These Terms help ensure a safe, fair, and transparent experience for
+            everyone who interacts with Kingsgold Group. By using our website,
+            you agree to respect these guidelines and support a trusted digital
+            environment.
           </p>
         </div>
       </section>

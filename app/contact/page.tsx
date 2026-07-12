@@ -465,23 +465,42 @@ export default function Contact() {
 
       {/* CTA */}
 
-      <section className="bg-[#FFF4D4] py-24 text-center text-white">
+      <section className="bg-[#151716] py-24 text-center text-white">
         <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            <span className="text-zinc-400">From</span>{" "}
-            <span className="text-[#151716]">Coal</span>{" "}
-            <span className="text-zinc-400">To</span>{" "}
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#D4AF37]">
+            Let's Connect
+          </span>
+
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-6xl">
+            Let's Build Something{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-              Gold
-            </span>
+              Great
+            </span>{" "}
+            Together.
           </h2>
 
-          {/* <p className="mt-5 text-xl text-zinc-500">
-            Building businesses that transform ideas into enduring value.
-          </p> */}
-          <p className="mt-5 text-base md:text-xl text-zinc-500">
-            Building Businesses That Shape the Future.
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
+            Whether you're an entrepreneur, investor, business partner, client,
+            or simply want to learn more about Kingsgold Group, we'd love to
+            hear from you. Let's start a conversation and explore opportunities
+            to create lasting value together.
           </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <a
+              href="mailto:kingsgoldgroup@gmail.com"
+              className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110"
+            >
+              Email Us
+            </a>
+
+            <a
+              href="/about"
+              className="rounded-full border border-white/20 px-8 py-4 font-semibold text-white transition hover:border-[#D4AF37] hover:text-[#D4AF37]"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </section>
     </main>

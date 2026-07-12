@@ -137,23 +137,42 @@ export default function Security() {
           </p>
         </div>
       </section> */}
-      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          <span className="text-zinc-400">From</span>{" "}
-          <span className="text-[#151716]">Coal</span>{" "}
-          {/* <span className="text-zinc-400">→</span>{" "} */}
-          <span className="text-zinc-400">To</span>{" "}
-          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-            Gold
+      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
+            Need More Information?
           </span>
-        </h2>
 
-        {/* <p className="mt-5 text-xl text-zinc-500">
-          Building businesses that transform ideas into enduring value.
-        </p> */}
-        <p className="mt-5 text-base md:text-xl text-zinc-500">
-          Building Businesses That Shape the Future.
-        </p>
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
+            We're Always{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Happy to Help.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
+            If you couldn't find the answer you were looking for, our team is
+            here to assist. Reach out with your questions, partnership
+            inquiries, or business opportunities—we're always happy to hear from
+            you.
+          </p>
+
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <a
+              href="/contact"
+              className="rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] px-8 py-4 font-semibold text-[#151716] transition hover:brightness-110"
+            >
+              Contact Us
+            </a>
+
+            <a
+              href="mailto:kingsgoldgroup@gmail.com"
+              className="rounded-full border border-[#151716]/15 px-8 py-4 font-semibold text-[#151716] transition hover:border-[#D4AF37] hover:text-[#B8860B]"
+            >
+              Email Us
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   );

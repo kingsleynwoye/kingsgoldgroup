@@ -405,23 +405,50 @@ export default function Businesses() {
           </p>
         </section> */}
       </section>
-      <section className="p-5 py-24 text-center bg-[#FFF4D4]">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          <span className="text-zinc-400">From</span>{" "}
-          <span className="text-[#151716]">Coal</span>{" "}
-          {/* <span className="text-zinc-400">→</span>{" "} */}
-          <span className="text-zinc-400">To</span>{" "}
-          <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-            Gold
+      <section className="bg-[#151716] px-6 py-24 text-center text-white">
+        <div className="mx-auto max-w-4xl">
+          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#D4AF37]">
+            Our Portfolio
           </span>
-        </h2>
 
-        {/* <p className="mt-5 text-xl text-zinc-500">
-          Building businesses that transform ideas into enduring value.
-        </p> */}
-        <p className="mt-5 text-base md:text-xl text-zinc-500">
-          Building Businesses That Shape the Future.
-        </p>
+          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-6xl">
+            Building Businesses
+            <br />
+            Across{" "}
+            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+              Multiple Industries.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
+            Every business within Kingsgold Group is built with a shared
+            commitment to innovation, excellence, and long-term value creation.
+            Together, our companies are shaping industries, creating
+            opportunities, and contributing to sustainable economic growth.
+          </p>
+
+          <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Technology
+            </span>
+
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Finance
+            </span>
+
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Real Estate
+            </span>
+
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Agriculture
+            </span>
+
+            <span className="rounded-full border border-[#D4AF37]/30 bg-white/5 px-5 py-3 text-sm">
+              Creative Industries
+            </span>
+          </div>
+        </div>
       </section>
     </main>
   );
