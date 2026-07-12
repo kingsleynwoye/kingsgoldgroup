@@ -365,7 +365,7 @@ export default function Businesses() {
 
         {/* Vision */}
 
-        <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#151716] px-10 py-16 text-center text-white">
+        {/* <section className="mt-28 rounded-[32px] border border-[#D4AF37]/20 bg-[#151716] px-10 py-16 text-center text-white">
           <h2 className="text-4xl font-bold">
             United by One <span className="text-[#D4AF37]">Vision.</span>
           </h2>
@@ -375,9 +375,9 @@ export default function Businesses() {
             problems, create lasting value, and contribute to Africa's economic
             transformation through innovation, entrepreneurship, and strategic
             leadership.
-          </p>
+          </p> */}
 
-          {/* <div className="mt-12">
+        {/* <div className="mt-12">
             <p className="text-4xl font-bold tracking-tight">
               <span className="text-zinc-500">Coal</span>{" "}
               <span className="text-white">→</span>{" "}
@@ -388,7 +388,7 @@ export default function Businesses() {
               Building businesses that transform ideas into enduring value.
             </p>
           </div> */}
-        </section>
+        {/* </section> */}
 
         {/* <section className="mt-28 text-center">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
