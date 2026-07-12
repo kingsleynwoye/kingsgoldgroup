@@ -344,12 +344,19 @@
 //   );
 // }
 
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
+};
 
 export default function Contact() {
   return (

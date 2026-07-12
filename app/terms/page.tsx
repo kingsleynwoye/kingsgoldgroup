@@ -1,9 +1,16 @@
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Terms of Use",
+  description:
+    "Read the terms and conditions governing the use of the Kingsgold Group website.",
+};
 
 export default function Terms() {
   const sections = [

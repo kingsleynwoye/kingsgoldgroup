@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -47,6 +48,12 @@ const faqs = [
       "Career opportunities will be announced on our website as they become available. We are always interested in connecting with talented individuals who share our vision.",
   },
 ];
+
+export const metadata: Metadata = {
+  title: "FAQs",
+  description:
+    "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
+};
 
 export default function FAQs() {
   return (

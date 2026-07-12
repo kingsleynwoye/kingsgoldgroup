@@ -1,10 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Page Not Found",
+};
 
 export default function NotFound() {
   return (

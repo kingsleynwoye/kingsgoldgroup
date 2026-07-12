@@ -345,6 +345,7 @@
 // }
 
 import Image from "next/image";
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -383,6 +384,37 @@ const values = [
   "Collaboration",
   "Sustainability",
 ];
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about Kingsgold Group, our vision, mission, values, and the businesses we are building for the future.",
+
+  openGraph: {
+    title: "About Us | Kingsgold Group",
+    description:
+      "Learn about Kingsgold Group, our vision, mission, values, and the businesses we are building for the future.",
+    url: "https://kingsgoldgroup.vercel.app/about",
+    images: [
+      {
+        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Kingsgold Group",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Kingsgold Group",
+    description:
+      "Learn about Kingsgold Group, our vision, mission, values, and the businesses we are building for the future.",
+    images: [
+      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+    ],
+  },
+};
 
 export default function About() {
   return (

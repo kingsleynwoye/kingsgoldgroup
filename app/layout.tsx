@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://kingsgoldgroup.vercel.app";
+// const siteUrl = "https://kingsgoldgroup.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kingsgoldgroup.vercel.app"),

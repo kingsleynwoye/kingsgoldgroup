@@ -254,6 +254,7 @@
 // }
 
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
@@ -298,6 +299,12 @@ const companies = [
     href: "https://dicesea.vercel.app",
   },
 ];
+
+export const metadata: Metadata = {
+  title: "Our Businesses",
+  description:
+    "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
+};
 
 export default function Businesses() {
   return (

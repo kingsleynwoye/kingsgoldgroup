@@ -1,9 +1,16 @@
+import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
+};
 
 export default function Privacy() {
   const sections = [
