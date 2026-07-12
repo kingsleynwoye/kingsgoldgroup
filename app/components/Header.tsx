@@ -47,7 +47,7 @@ export default function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
 
-        <Link href="/" className="group" onClick={() => setOpen(!open)}>
+        <Link href="/" className="group" onClick={() => setOpen(false)}>
           {/* <div className="leading-none">
             <h1 className="text-3xl font-black tracking-tight">
               <span className="text-[#151716]">KINGS</span>
