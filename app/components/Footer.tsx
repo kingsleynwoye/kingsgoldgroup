@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Stack_Sans_Headline } from "next/font/google";
 // import Image from "next/image";
 import Logo from "./Logo";
@@ -9,7 +12,35 @@ export const stack_sans_headline = Stack_Sans_Headline({
 });
 
 export default function Footer() {
+  const pathname = usePathname();
   const year = new Date().getFullYear();
+
+  const navigation = [
+    {
+      name: "Home",
+      href: "/",
+    },
+    {
+      name: "About Us",
+      href: "/about",
+    },
+    {
+      name: "Our Businesses",
+      href: "/businesses",
+    },
+    {
+      name: "Contact Us",
+      href: "/contact",
+    },
+    {
+      name: "Our Security",
+      href: "/security",
+    },
+    {
+      name: "FAQs",
+      href: "/faqs",
+    },
+  ];
 
   return (
     <footer
@@ -58,51 +89,25 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-[#151716]">Company</h3>
 
-            <ul className="mt-5 space-y-3 text-zinc-600">
-              <li>
-                <Link href="/" className="transition hover:text-[#C9971A]">
-                  Home
-                </Link>
-              </li>
+            <ul className="mt-5 space-y-3">
+              {navigation.map((item) => {
+                const active = pathname === item.href;
 
-              <li>
-                <Link href="/about" className="transition hover:text-[#C9971A]">
-                  About Us
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/businesses"
-                  className="transition hover:text-[#C9971A]"
-                >
-                  Our Businesses
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/contact"
-                  className="transition hover:text-[#C9971A]"
-                >
-                  Contact Us
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/security"
-                  className="transition hover:text-[#C9971A]"
-                >
-                  Our Security
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/faqs" className="transition hover:text-[#C9971A]">
-                  FAQs
-                </Link>
-              </li>
+                return (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className={`transition duration-300 ${
+                        active
+                          ? "bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent font-semibold"
+                          : "text-zinc-600 hover:text-[#C9971A]"
+                      }`}
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
@@ -187,11 +192,25 @@ export default function Footer() {
           <p>© {year} Kingsgold Group Limited. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-[#C9971A] transition">
+            <Link
+              href="/privacy"
+              className={`transition duration-300 ${
+                pathname === "/privacy"
+                  ? "bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent font-semibold"
+                  : "hover:text-[#C9971A]"
+              }`}
+            >
               Privacy Policy
             </Link>
 
-            <Link href="/terms" className="hover:text-[#C9971A] transition">
+            <Link
+              href="/terms"
+              className={`transition duration-300 ${
+                pathname === "/terms"
+                  ? "bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent font-semibold"
+                  : "hover:text-[#C9971A]"
+              }`}
+            >
               Terms of Use
             </Link>
           </div>
