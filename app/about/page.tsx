@@ -357,26 +357,32 @@ const industries = [
   {
     title: "Technology",
     company: "Range Universe",
+    image: "/logo/rangeuniverse-logo.png",
   },
   {
     title: "Finance",
     company: "TrustnFund",
+    image: "/logo/trustnfund-logo.png",
   },
   {
     title: "Real Estate",
     company: "Staydeck",
+    image: "/logo/staydeck-logo.png",
   },
   {
     title: "Agriculture",
     company: "Nature Ambiance",
+    image: "/logo/natureambiance-logo.png",
   },
   {
     title: "Creative & Entertainment",
     company: "DiceSea",
+    image: "/logo/dicesea-logo.png",
   },
   {
     title: "Media",
     company: "From Coal To Gold",
+    image: "/logo/fromcoaltogold-logo.png",
   },
 ];
 
@@ -498,13 +504,24 @@ export default function About() {
                 key={item.company}
                 className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
               >
-                <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
-                <h3 className="text-lg font-semibold text-[#151716]">
-                  {item.title}
-                </h3>
+                    <h3 className="text-lg font-semibold text-[#151716]">
+                      {item.title}
+                    </h3>
 
-                <p className="mt-3 text-zinc-600">{item.company}</p>
+                    <p className="mt-3 text-zinc-600">{item.company}</p>
+                  </div>
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    width={56}
+                    height={56}
+                    className="h-14 w-14 object-contain rounded-lg"
+                  />
+                </div>
               </div>
             ))}
           </div>
