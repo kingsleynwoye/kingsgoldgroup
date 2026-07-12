@@ -103,12 +103,12 @@ export default function Home() {
         </div> */}
       </section>
 
-      <section className="bg-white px-6 pb-24">
+      {/* <section className="bg-white px-6 pb-24">
         <div className="mx-auto max-w-5xl">
-          <div className="rounded-[2rem] border border-[#D4AF37]/20 bg-[#FFF4D4] p-8 shadow-sm md:p-14">
-            {/* Top */}
+          <div className="rounded-[2rem] border border-[#D4AF37]/20 bg-[#FFF4D4] p-8 shadow-sm md:p-14"> */}
+      {/* Top */}
 
-            <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
               <div className="h-12 w-1 rounded-full bg-gradient-to-b from-[#9F690F] via-[#FFEB5F] to-[#C9971A]" />
 
               <div>
@@ -123,11 +123,11 @@ export default function Home() {
                   </span>
                 </h2>
               </div>
-            </div>
+            </div> */}
 
-            {/* Quote */}
+      {/* Quote */}
 
-            <div className="mt-10">
+      {/* <div className="mt-10">
               <span className="text-7xl font-bold leading-none text-[#D4AF37]/30">
                 “
               </span>
@@ -138,11 +138,11 @@ export default function Home() {
                 Today, that name has become a vision to build businesses that
                 shape the future.
               </blockquote>
-            </div>
+            </div> */}
 
-            {/* Signature */}
+      {/* Signature */}
 
-            <div className="mt-12 flex items-center justify-between border-t border-[#D4AF37]/20 pt-8">
+      {/* <div className="mt-12 flex items-center justify-between border-t border-[#D4AF37]/20 pt-8">
               <div>
                 <p className="text-xl font-bold text-[#151716]">
                   Kingsley Chidubem Nwoye
@@ -165,27 +165,77 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="bg-[#FFF4D4] px-6 py-24 text-center">
-        <div className="mx-auto max-w-4xl">
-          <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-            Our Vision
-          </span>
+      <section className="bg-white px-6 py-24">
+        <div className="mx-auto max-w-5xl">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#D4AF37]/20 bg-gradient-to-br from-[#1A1C1B] to-[#0F100F] p-8 md:p-14">
+            {/* Decorative Glow */}
 
-          <h2 className="mt-8 text-4xl font-bold tracking-tight md:text-5xl">
-            Building Businesses That{" "}
-            <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
-              Shape the Future.
-            </span>
-          </h2>
+            <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#D4AF37]/10 blur-3xl" />
 
-          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-zinc-600 md:text-xl">
-            We believe that great businesses create lasting impact. Through
-            entrepreneurship, innovation, and long-term thinking, Kingsgold
-            Group is building a portfolio of companies that empower people,
-            transform industries, and contribute to a better future.
-          </p>
+            <div className="absolute -left-24 -bottom-24 h-72 w-72 rounded-full bg-[#D4AF37]/5 blur-3xl" />
+
+            {/* Heading */}
+
+            <div className="relative flex items-center gap-4">
+              <div className="h-14 w-1 rounded-full bg-gradient-to-b from-[#9F690F] via-[#FFEB5F] to-[#C9971A]" />
+
+              <div>
+                <span className="text-sm font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
+                  Founder&apos;s Message
+                </span>
+
+                <h2 className="mt-2 text-3xl font-bold text-white md:text-5xl">
+                  The Story Behind{" "}
+                  <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+                    Kingsgold
+                  </span>
+                </h2>
+              </div>
+            </div>
+
+            {/* Quote */}
+
+            <div className="relative mt-12">
+              <span className="absolute -top-10 left-0 text-8xl font-bold leading-none text-[#D4AF37]/20">
+                “
+              </span>
+
+              <blockquote className="relative pl-10 text-lg leading-10 text-zinc-300 md:text-2xl md:leading-[3rem]">
+                When I was a boy, my nickname was{" "}
+                <span className="font-semibold bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
+                  Kingsgold
+                </span>
+                . Today, that name has become a vision to build businesses that
+                shape the future.
+              </blockquote>
+            </div>
+
+            {/* Bottom */}
+
+            <div className="relative mt-10 md:mt-14 flex flex-col gap-8 border-t border-[#D4AF37]/20 pt-8 md:flex-row md:items-center md:justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-white">
+                  Kingsley Nwoye
+                </h3>
+
+                <p className="mt-2 text-zinc-400">
+                  Founder & CEO, Kingsgold Group
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-[#D4AF37]/20 bg-white/5 px-6 py-5 backdrop-blur-sm">
+                <p className="text-xs uppercase tracking-[0.35em] text-[#D4AF37]">
+                  Our Vision
+                </p>
+
+                <p className="mt-2 text-[11px] md:text-base font-normal text-white">
+                  Building Businesses That Shape the Future.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
