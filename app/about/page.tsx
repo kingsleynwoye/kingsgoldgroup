@@ -404,7 +404,7 @@ export default function About() {
 
         <div className="max-w-4xl">
           <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-            About Kingsgold Group
+            About Us
           </span>
 
           <h1 className="mt-8 text-3xl font-bold tracking-tight md:text-6xl">
