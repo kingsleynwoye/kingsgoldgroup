@@ -12,12 +12,12 @@ export const stack_sans_headline = Stack_Sans_Headline({
 export const metadata: Metadata = {
   title: "Kingsgold Group",
   description:
-    "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
+    "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, media, and the creative industries.",
 
   openGraph: {
     title: "Kingsgold Group",
     description:
-      "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
+      "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, media, and the creative industries.",
     url: "https://kingsgoldgroup.vercel.app",
     images: [
       {
