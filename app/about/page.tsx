@@ -347,44 +347,12 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
+import { businesses } from "../data/businesses";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
-
-const industries = [
-  {
-    title: "Technology",
-    company: "Range Universe",
-    image: "/logo/rangeuniverse-logo.png",
-  },
-  {
-    title: "Finance",
-    company: "TrustnFund",
-    image: "/logo/trustnfund-logo.png",
-  },
-  {
-    title: "Real Estate",
-    company: "Staydeck",
-    image: "/logo/staydeck-logo.png",
-  },
-  {
-    title: "Agriculture",
-    company: "Nature Ambiance",
-    image: "/logo/natureambiance-logo.png",
-  },
-  {
-    title: "Creative & Entertainment",
-    company: "DiceSea",
-    image: "/logo/dicesea-logo.png",
-  },
-  {
-    title: "Media",
-    company: "From Coal To Gold",
-    image: "/logo/fromcoaltogold-logo.png",
-  },
-];
 
 const values = [
   "Innovation",
@@ -499,9 +467,9 @@ export default function About() {
           </p>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {industries.map((item) => (
+            {businesses.map((business) => (
               <div
-                key={item.company}
+                key={business.name}
                 className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-lg"
               >
                 <div className="flex items-center justify-between">
@@ -509,14 +477,14 @@ export default function About() {
                     <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
                     <h3 className="text-lg font-semibold text-[#151716]">
-                      {item.title}
+                      {business.name}
                     </h3>
 
-                    <p className="mt-3 text-zinc-600">{item.company}</p>
+                    <p className="mt-3 text-zinc-600">{business.industry}</p>
                   </div>
                   <Image
-                    src={item.image}
-                    alt={item.title}
+                    src={business.image}
+                    alt={business.name}
                     width={56}
                     height={56}
                     className="h-14 w-14 object-contain rounded-lg"

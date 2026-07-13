@@ -2,44 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
+import { businesses } from "./data/businesses";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
-
-const companies = [
-  {
-    name: "Range Universe",
-    category: "Technology",
-    image: "/logo/rangeuniverse-logo.png",
-  },
-  {
-    name: "TrustnFund",
-    category: "Finance",
-    image: "/logo/trustnfund-logo.png",
-  },
-  {
-    name: "Staydeck",
-    category: "Real Estate",
-    image: "/logo/staydeck-logo.png",
-  },
-  {
-    name: "Nature Ambiance",
-    category: "Agriculture",
-    image: "/logo/natureambiance-logo.png",
-  },
-  {
-    name: "DiceSea",
-    category: "Creative",
-    image: "/logo/dicesea-logo.png",
-  },
-  {
-    name: "From Coal To Gold",
-    category: "Media",
-    image: "/logo/fromcoaltogold-logo.png",
-  },
-];
 
 export const metadata: Metadata = {
   title: "Kingsgold Group",
@@ -114,9 +82,9 @@ export default function Home() {
         </div>
 
         <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-4">
-          {companies.map((company) => (
+          {businesses.map((business) => (
             <div
-              key={company.name}
+              key={business.name}
               className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
             >
               <div className="flex items-center justify-between">
@@ -124,16 +92,16 @@ export default function Home() {
                   <div className="mb-4 h-1 w-10 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
                   <h3 className="text-lg font-semibold text-[#151716]">
-                    {company.name}
+                    {business.name}
                   </h3>
 
                   <p className="mt-2 text-sm text-zinc-500">
-                    {company.category}
+                    {business.industry}
                   </p>
                 </div>
                 <Image
-                  src={company.image}
-                  alt={company.name}
+                  src={business.image}
+                  alt={business.name}
                   width={56}
                   height={56}
                   className="h-14 w-14 object-contain rounded-lg"

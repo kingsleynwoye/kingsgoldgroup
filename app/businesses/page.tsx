@@ -256,56 +256,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Stack_Sans_Headline } from "next/font/google";
+import { businesses } from "../data/businesses";
 
 export const stack_sans_headline = Stack_Sans_Headline({
   subsets: ["latin"],
   display: "swap",
 });
-
-const companies = [
-  {
-    name: "Range Universe",
-    industry: "Technology",
-    description:
-      "Building innovative software, AI, and digital solutions that empower individuals, businesses, and communities.",
-    href: "https://rangeuniverse.vercel.app",
-  },
-  {
-    name: "TrustnFund",
-    industry: "Finance",
-    description:
-      "Creating modern financial solutions that make funding, investing, and financial growth more accessible.",
-    href: "https://trustnfund.vercel.app",
-  },
-  {
-    name: "Staydeck",
-    industry: "Real Estate",
-    description:
-      "Transforming how people discover, book, and manage properties through technology and innovation.",
-    href: "https://staydeck.vercel.app",
-  },
-  {
-    name: "Nature Ambiance",
-    industry: "Agriculture",
-    description:
-      "Advancing sustainable agriculture through innovative farming practices and environmental stewardship.",
-    href: "https://natureambiance.vercel.app",
-  },
-  {
-    name: "DiceSea",
-    industry: "Creative & Entertainment",
-    description:
-      "Delivering creative experiences through media, entertainment, branding, and digital storytelling.",
-    href: "https://dicesea.vercel.app",
-  },
-  {
-    name: "From Coal To Gold",
-    industry: "Media",
-    description:
-      "Sharing real stories and powerful lessons on mindset, discipline, and financial growth through engaging and entertaining content.",
-    href: "https://fromcoaltogold.vercel.app",
-  },
-];
 
 export const metadata: Metadata = {
   title: "Our Businesses",
@@ -369,31 +325,31 @@ export default function Businesses() {
           </p>
         </div>
 
-        {/* Companies */}
+        {/* Businesses */}
 
         <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {companies.map((company) => (
+          {businesses.map((business) => (
             <article
-              key={company.name}
+              key={business.name}
               className="group rounded-[28px] border border-zinc-200 bg-[#FFF4D4] p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-[#D4AF37] hover:shadow-xl"
             >
               <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A]" />
 
               <span className="inline-flex rounded-full bg-[#D4AF37]/10 px-3 py-1 text-sm font-medium text-[#B8860B]">
-                {company.industry}
+                {business.industry}
               </span>
 
               <h2 className="mt-6 text-2xl font-bold text-[#151716] transition-colors group-hover:text-[#D4AF37]">
-                {company.name}
+                {business.name}
               </h2>
 
               <p className="mt-5 leading-8 text-zinc-600">
-                {company.description}
+                {business.description}
               </p>
 
               <Link
-                href={company.href}
-                target="_blank"
+                href={`/businesses/${business.slug}`}
+                // target="_blank"
                 className="mt-8 inline-flex items-center font-semibold text-[#D4AF37] transition-all duration-300 hover:translate-x-1"
               >
                 Learn More →
