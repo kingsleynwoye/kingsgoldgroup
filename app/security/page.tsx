@@ -7,12 +7,12 @@ export const stack_sans_headline = Stack_Sans_Headline({
 });
 
 export const metadata: Metadata = {
-  title: "Security",
+  title: "Our Security",
   description:
     "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
 
   openGraph: {
-    title: "Security | Kingsgold Group",
+    title: "Our Security | Kingsgold Group",
     description:
       "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
     url: "https://kingsgoldgroup.vercel.app/security",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Security | Kingsgold Group",
+    title: "Our Security | Kingsgold Group",
     description:
       "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
     images: [
@@ -47,7 +47,7 @@ export default function Security() {
       <section className="mx-auto max-w-7xl px-6 py-28 pb-20">
         <div className="max-w-4xl">
           <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-5 py-2 text-sm font-medium text-[#B8860B]">
-            Our Security at Kingsgold Group
+            Our Security
           </span>
 
           <h1 className="mt-8 text-3xl font-bold tracking-tight md:text-6xl">
