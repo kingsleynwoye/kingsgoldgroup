@@ -124,14 +124,14 @@ export default async function BusinessPage({ params }: Props) {
         </div>
 
         <section className="mt-24 rounded-[32px] bg-[#151716] px-5 md:px-10 py-16 text-center text-white">
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-2xl md:text-4xl font-bold">
             Part of{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
               Kingsgold Group
             </span>
           </h2>
 
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
+          <p className="mx-auto mt-4 md:mt-8 max-w-3xl text-lg leading-9 text-zinc-300">
             Every company within Kingsgold Group is built with a shared
             commitment to innovation, entrepreneurship, and long-term value
             creation across industries.
