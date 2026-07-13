@@ -67,11 +67,11 @@ export default async function BusinessPage({ params }: Props) {
             </span>
 
             <div className="flex justify-between">
-              <h1 className="mt-8 text-4xl font-bold tracking-tight md:text-6xl">
+              <h1 className="mt-8 text-3xl font-bold tracking-tight md:text-6xl">
                 {business.name}
               </h1>
               <div
-                className="flex h-28 md:h-40 w-28 md:w-40 items-center justify-center rounded-3xl border shadow-sm p-5 md:p-6"
+                className="flex h-20 md:h-40 w-20 md:w-40 items-center justify-center rounded-3xl border shadow-sm p-3 md:p-6"
                 style={{
                   background: `${business.color}10`,
                   borderColor: `${business.color}40`,
@@ -88,7 +88,7 @@ export default async function BusinessPage({ params }: Props) {
               </div>
             </div>
 
-            <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-600">
+            <p className="mt-4 md:mt-8 max-w-3xl text-xl leading-9 text-zinc-600">
               {business.description}
             </p>
           </div>
