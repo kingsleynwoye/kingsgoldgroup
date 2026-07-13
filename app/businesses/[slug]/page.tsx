@@ -95,13 +95,13 @@ export default async function BusinessPage({ params }: Props) {
         </div>
 
         <div className="mt-20 grid gap-10 lg:grid-cols-2">
-          <div className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-10">
+          <div className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-5 md:p-10">
             <h2 className="text-2xl font-bold">Our Mission</h2>
 
             <p className="mt-6 leading-8 text-zinc-600">{business.mission}</p>
           </div>
 
-          <div className="rounded-3xl border border-zinc-200 p-10">
+          <div className="rounded-3xl border border-zinc-200 p-5 md:p-10">
             <h2 className="text-2xl font-bold">About {business.name}</h2>
 
             <p className="mt-6 leading-8 text-zinc-600">
@@ -123,7 +123,7 @@ export default async function BusinessPage({ params }: Props) {
           </div>
         </div>
 
-        <section className="mt-24 rounded-[32px] bg-[#151716] px-10 py-16 text-center text-white">
+        <section className="mt-24 rounded-[32px] bg-[#151716] px-5 md:px-10 py-16 text-center text-white">
           <h2 className="text-4xl font-bold">
             Part of{" "}
             <span className="bg-gradient-to-r from-[#9F690F] via-[#FFEB5F] to-[#C9971A] bg-clip-text text-transparent">
