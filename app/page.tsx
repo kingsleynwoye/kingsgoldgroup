@@ -81,7 +81,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-4">
+        <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-5">
           {businesses.map((business) => (
             <div
               key={business.name}
@@ -99,13 +99,13 @@ export default function Home() {
                     {business.industry}
                   </p>
                 </div>
-                <Image
+                {/* <Image
                   src={business.image}
                   alt={business.name}
                   width={56}
                   height={56}
                   className="h-14 w-14 object-contain rounded-lg"
-                />
+                /> */}
               </div>
             </div>
           ))}
@@ -185,6 +185,91 @@ export default function Home() {
                 <p className="mt-1 font-semibold text-[#151716]">
                   That Shape the Future.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* Kingsgold Foundation */}
+      {/* <section className="bg-white px-6 pb-24">
+        <div className="mx-auto max-w-6xl overflow-hidden rounded-[2rem] border border-[#D4AF37]/20 bg-[#FFF4D4] shadow-sm">
+          <div className="grid items-center gap-12 lg:grid-cols-2"> */}
+      {/* Left */}
+      {/* <div className="p-10 md:p-14">
+              <span className="inline-flex rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-4 py-2 text-sm font-medium text-[#B8860B]">
+                Kingsgold Foundation
+              </span>
+
+              <h2 className="mt-6 text-3xl font-bold text-[#151716] md:text-5xl">
+                Creating Lasting
+                <span className="bg-gradient-to-r from-[#9F690F] via-[#FFD94A] to-[#C9971A] bg-clip-text text-transparent">
+                  {" "}
+                  Impact.
+                </span>
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-zinc-600">
+                Kingsgold Foundation is the philanthropic arm of Kingsgold
+                Group, dedicated to empowering communities through education,
+                innovation, entrepreneurship, healthcare, and sustainable
+                development.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-zinc-600">
+                We believe that building successful businesses should also
+                create opportunities for people and contribute to a better
+                future.
+              </p>
+
+              <div className="mt-10">
+                <Link
+                  href="/foundation"
+                  className="inline-flex rounded-full bg-[#151716] px-8 py-3.5 font-semibold text-white transition hover:bg-black"
+                >
+                  Explore Foundation
+                </Link>
+              </div>
+            </div> */}
+
+      {/* Right */}
+      {/* <div className="flex h-full items-center justify-center bg-gradient-to-br from-[#151716] via-[#1A1C1B] to-[#0F100F] p-6 md:p-12">
+              <div className="grid grid-cols-2 gap-6">
+                <div className="rounded-2xl border border-[#D4AF37]/20 bg-white/5 p-3 md:p-6 text-center">
+                  <h3 className="text-base md:text-3xl font-bold text-[#FFD94A]">
+                    Education
+                  </h3>
+                  <p className="mt-3 text-sm text-zinc-300">
+                    Scholarships & Learning
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-[#D4AF37]/20 bg-white/5 p-6 text-center">
+                  <h3 className="text-base md:text-3xl font-bold text-[#FFD94A]">
+                    Health
+                  </h3>
+                  <p className="mt-3 text-sm text-zinc-300">
+                    Community Wellbeing
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-[#D4AF37]/20 bg-white/5 p-6 text-center">
+                  <h3 className="text-base md:text-3xl font-bold text-[#FFD94A]">
+                    Innovation
+                  </h3>
+                  <p className="mt-3 text-sm text-zinc-300">
+                    Technology Access
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-[#D4AF37]/20 bg-white/5 p-6 text-center">
+                  <h3 className="text-base md:text-3xl font-bold text-[#FFD94A]">
+                    Community
+                  </h3>
+                  <p className="mt-3 text-sm text-zinc-300">
+                    Sustainable Growth
+                  </p>
+                </div>
               </div>
             </div>
           </div>
