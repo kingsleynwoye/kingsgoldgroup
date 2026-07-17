@@ -176,7 +176,7 @@ export default function RootLayout({
                 "@type": "ImageObject",
                 url: "https://kingsgoldgroup.vercel.app/logo/logo.svg",
               },
-              slogan: "From Coal to Gold",
+              slogan: "Building Businesses That Shape the Future.",
               description:
                 "Kingsgold Group is a diversified business group committed to building innovative businesses across multiple industries through entrepreneurship, innovation, and long-term value creation.",
               founder: {
