@@ -57,15 +57,15 @@ export const businesses = [
     color: "#EC4899",
     image: "/logo/dicesea-logo.png",
   },
-  // {
-  //   slug: "fromcoaltogold",
-  //   name: "From Coal To Gold",
-  //   industry: "Media",
-  //   description:
-  //     "Sharing real stories and lessons on mindset, discipline, and financial growth.",
-  //   website: "#",
-  //   mission: "To educate and inspire people to build a better future.",
-  //   color: "#D4AF37",
-  //   image: "/logo/fromcoaltogold-logo.png",
-  // },
+  {
+    slug: "fromcoaltogold",
+    name: "From Coal To Gold",
+    industry: "Media",
+    description:
+      "Sharing real stories and lessons on mindset, discipline, and financial growth.",
+    website: "#",
+    mission: "To educate and inspire people to build a better future.",
+    color: "#D4AF37",
+    image: "/logo/fromcoaltogold-logo.png",
+  },
 ];

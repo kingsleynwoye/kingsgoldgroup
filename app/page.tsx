@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         <div className="mt-24 grid w-full max-w-6xl gap-6 md:grid-cols-5">
-          {businesses.map((business) => (
+          {businesses.slice(0, 5).map((business) => (
             <div
               key={business.name}
               className="rounded-3xl border border-zinc-200 bg-[#FFF4D4] p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D4AF37] hover:shadow-xl"
