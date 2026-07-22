@@ -54,6 +54,10 @@ export const metadata: Metadata = {
   description:
     "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
 
+  alternates: {
+    canonical: "/faqs",
+  },
+
   openGraph: {
     title: "Frequently Asked Questions | Kingsgold Group",
     description:

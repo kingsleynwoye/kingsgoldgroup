@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description:
     "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
 
+  alternates: {
+    canonical: "/security",
+  },
+
   openGraph: {
     title: "Our Security | Kingsgold Group",
     description:

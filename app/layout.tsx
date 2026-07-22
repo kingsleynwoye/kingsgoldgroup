@@ -109,9 +109,9 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: {
-    canonical: "/",
-  },
+  // alternates: {
+  //   canonical: "/",
+  // },
 
   openGraph: {
     type: "website",

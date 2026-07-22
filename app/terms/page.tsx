@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description:
     "Read the terms and conditions governing the use of the Kingsgold Group website.",
 
+  alternates: {
+    canonical: "/terms",
+  },
+
   openGraph: {
     title: "Terms of Use | Kingsgold Group",
     description:
