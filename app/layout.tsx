@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// const siteUrl = "https://kingsgoldgroup.vercel.app";
+// const siteUrl = "https://www.kingsgoldgroup.com";
 
 // export const metadata: Metadata = {
-//   metadataBase: new URL("https://kingsgoldgroup.vercel.app"),
+//   metadataBase: new URL("https://www.kingsgoldgroup.com"),
 
 //   title: {
 //     default: "Kingsgold Group",
@@ -32,13 +32,13 @@ const geistMono = Geist_Mono({
 
 //   openGraph: {
 //     type: "website",
-//     url: "https://kingsgoldgroup.vercel.app",
+//     url: "https://www.kingsgoldgroup.com",
 //     title: "Kingsgold Group",
 //     description: "Building Businesses That Shape the Future.",
 //     siteName: "Kingsgold Group",
 //     images: [
 //       {
-//         url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+//         url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
 //         width: 1200,
 //         height: 630,
 //         alt: "Kingsgold Group",
@@ -51,13 +51,13 @@ const geistMono = Geist_Mono({
 //     title: "Kingsgold Group",
 //     description: "Building Businesses That Shape the Future.",
 //     images: [
-//       "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+//       "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
 //     ],
 //   },
 // };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kingsgoldgroup.vercel.app"),
+  metadataBase: new URL("https://www.kingsgoldgroup.com"),
 
   title: {
     default: "Kingsgold Group",
@@ -116,7 +116,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kingsgoldgroup.vercel.app",
+    url: "https://www.kingsgoldgroup.com",
     siteName: "Kingsgold Group",
     title: "Kingsgold Group",
     description:
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -137,9 +137,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kingsgold Group",
     description: "Building innovative businesses across multiple industries.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 
   icons: {
@@ -171,10 +169,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Kingsgold Group",
-              url: "https://kingsgoldgroup.vercel.app",
+              url: "https://www.kingsgoldgroup.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://kingsgoldgroup.vercel.app/logo/logo.svg",
+                url: "https://www.kingsgoldgroup.com/logo/logo.svg",
               },
               slogan: "Building Businesses That Shape the Future.",
               description:

@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     title: "Terms of Use | Kingsgold Group",
     description:
       "Read the terms and conditions governing the use of the Kingsgold Group website.",
-    url: "https://kingsgoldgroup.vercel.app/terms",
+    url: "https://www.kingsgoldgroup.com/terms",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -31,9 +31,7 @@ export const metadata: Metadata = {
     title: "Terms of Use | Kingsgold Group",
     description:
       "Read the terms and conditions governing the use of the Kingsgold Group website.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

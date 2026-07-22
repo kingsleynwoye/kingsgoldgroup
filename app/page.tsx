@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: "Kingsgold Group",
     description:
       "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, media, and the creative industries.",
-    url: "https://kingsgoldgroup.vercel.app",
+    url: "https://www.kingsgoldgroup.com",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -34,9 +34,7 @@ export const metadata: Metadata = {
     title: "Kingsgold Group",
     description:
       "Kingsgold Group is a diversified business group building innovative companies across technology, finance, real estate, agriculture, and the creative industries.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

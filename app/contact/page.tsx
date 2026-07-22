@@ -361,10 +361,10 @@ export const metadata: Metadata = {
     title: "Contact Us | Kingsgold Group",
     description:
       "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
-    url: "https://kingsgoldgroup.vercel.app/contact",
+    url: "https://www.kingsgoldgroup.com/contact",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -377,9 +377,7 @@ export const metadata: Metadata = {
     title: "Contact Us | Kingsgold Group",
     description:
       "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

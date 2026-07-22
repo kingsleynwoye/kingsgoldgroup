@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     title: "Our Security | Kingsgold Group",
     description:
       "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
-    url: "https://kingsgoldgroup.vercel.app/security",
+    url: "https://www.kingsgoldgroup.com/security",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -31,9 +31,7 @@ export const metadata: Metadata = {
     title: "Our Security | Kingsgold Group",
     description:
       "Learn about Kingsgold Group's commitment to protecting our people, businesses, systems, and data.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

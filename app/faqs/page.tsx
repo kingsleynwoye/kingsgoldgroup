@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     title: "Frequently Asked Questions | Kingsgold Group",
     description:
       "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
-    url: "https://kingsgoldgroup.vercel.app/faqs",
+    url: "https://www.kingsgoldgroup.com/faqs",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -74,9 +74,7 @@ export const metadata: Metadata = {
     title: "Frequently Asked Questions | Kingsgold Group",
     description:
       "Find answers to frequently asked questions about Kingsgold Group, our businesses, partnerships, and opportunities.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

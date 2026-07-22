@@ -372,10 +372,10 @@ export const metadata: Metadata = {
     title: "About Us | Kingsgold Group",
     description:
       "Learn about Kingsgold Group, our vision, mission, values, and the businesses we are building for the future.",
-    url: "https://kingsgoldgroup.vercel.app/about",
+    url: "https://www.kingsgoldgroup.com/about",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -388,9 +388,7 @@ export const metadata: Metadata = {
     title: "About Us | Kingsgold Group",
     description:
       "Learn about Kingsgold Group, our vision, mission, values, and the businesses we are building for the future.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 

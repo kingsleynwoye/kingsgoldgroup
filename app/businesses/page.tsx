@@ -272,10 +272,10 @@ export const metadata: Metadata = {
     title: "Our Businesses | Kingsgold Group",
     description:
       "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
-    url: "https://kingsgoldgroup.vercel.app/businesses",
+    url: "https://www.kingsgoldgroup.com/businesses",
     images: [
       {
-        url: "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
+        url: "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
         width: 1200,
         height: 630,
         alt: "Kingsgold Group",
@@ -288,9 +288,7 @@ export const metadata: Metadata = {
     title: "Our Businesses | Kingsgold Group",
     description:
       "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
-    images: [
-      "https://kingsgoldgroup.vercel.app/images/kingsgoldgroup-meta.png",
-    ],
+    images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 };
 
