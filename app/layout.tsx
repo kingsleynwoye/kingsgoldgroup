@@ -172,7 +172,9 @@ export default function RootLayout({
               url: "https://www.kingsgoldgroup.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.kingsgoldgroup.com/logo/logo.svg",
+                url: "https://www.kingsgoldgroup.com/logo/logo.png",
+                width: 1024,
+                height: 1024,
               },
               slogan: "Building Businesses That Shape the Future.",
               description:
