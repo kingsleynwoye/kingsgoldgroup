@@ -59,6 +59,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.kingsgoldgroup.com"),
 
+  manifest: "/site.webmanifest",
+
   title: {
     default: "Kingsgold Group",
     template: "%s | Kingsgold Group",
