@@ -185,7 +185,13 @@ export default function RootLayout({
                 "@type": "Country",
                 name: "Nigeria",
               },
-              sameAs: ["https://www.linkedin.com/company/kingsgoldgroup"],
+              sameAs: [
+                "https://www.linkedin.com/company/kingsgoldgroup",
+                "https://www.facebook.com/kingsgoldgroup",
+                "https://www.instagram.com/kingsgoldgroup",
+                "https://x.com/kingsgoldgroup",
+                "https://www.youtube.com/@kingsgoldgroup",
+              ],
             }),
           }}
         />
