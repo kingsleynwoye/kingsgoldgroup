@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description:
     "Learn how Kingsgold Group collects, uses, stores, and protects your personal information.",
 
+  alternates: {
+    canonical: "/privacy",
+  },
+
   openGraph: {
     title: "Privacy Policy | Kingsgold Group",
     description:

@@ -268,6 +268,10 @@ export const metadata: Metadata = {
   description:
     "Explore the portfolio of companies under Kingsgold Group across technology, finance, real estate, agriculture, and the creative industry.",
 
+  alternates: {
+    canonical: "/businesses",
+  },
+
   openGraph: {
     title: "Our Businesses | Kingsgold Group",
     description:

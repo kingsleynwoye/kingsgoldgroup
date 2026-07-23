@@ -357,6 +357,10 @@ export const metadata: Metadata = {
   description:
     "Get in touch with Kingsgold Group for partnerships, business enquiries, careers, and general information.",
 
+  alternates: {
+    canonical: "/contact",
+  },
+
   openGraph: {
     title: "Contact Us | Kingsgold Group",
     description:
