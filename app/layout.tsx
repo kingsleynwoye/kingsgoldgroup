@@ -93,11 +93,15 @@ export const metadata: Metadata = {
     },
   ],
 
+  generator: "Next.js",
+
   creator: "Kingsley Chidubem Nwoye",
 
   publisher: "Kingsgold Group",
 
   category: "Business",
+
+  referrer: "origin-when-cross-origin",
 
   robots: {
     index: true,
@@ -117,7 +121,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_NG",
     url: "https://www.kingsgoldgroup.com",
     siteName: "Kingsgold Group",
     title: "Kingsgold Group",
@@ -137,15 +141,50 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
+    site: "@kingsgoldgroup",
+    creator: "@kingsgoldgroup",
     title: "Kingsgold Group",
     description: "Building innovative businesses across multiple industries.",
     images: ["https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png"],
   },
 
   icons: {
-    icon: "/logo/favicon.ico",
+    icon: [
+      {
+        url: "/logo/favicon.ico",
+      },
+      {
+        url: "/logo/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/logo/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+
+    apple: [
+      {
+        url: "/logo/apple-touch-icon.png",
+        sizes: "180x180",
+      },
+    ],
+
     shortcut: "/logo/favicon.ico",
-    apple: "/logo/apple-touch-icon.png",
+  },
+
+  appleWebApp: {
+    capable: true,
+    title: "Kingsgold Group",
+    statusBarStyle: "black-translucent",
+  },
+
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
   },
 };
 
@@ -172,6 +211,13 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Kingsgold Group",
               url: "https://www.kingsgoldgroup.com",
+              "@id": "https://www.kingsgoldgroup.com/#organization",
+              brand: {
+                "@type": "Brand",
+                name: "Kingsgold",
+              },
+              image:
+                "https://www.kingsgoldgroup.com/images/kingsgoldgroup-meta.png",
               logo: {
                 "@type": "ImageObject",
                 url: "https://www.kingsgoldgroup.com/logo/logo.png",
